@@ -2,13 +2,13 @@
 def Cat_all(sub):
 
     aa = 4
-    result_all_path='/rds/projects/j/jenseno-opm/cross_modal_project/Across_participants/Category/'
+    result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/Category/'
     participant_arr=list(Part_info.keys())
     participant=participant_arr[sub-1]
     
     #participant_arr=['1107','1110','1114','1121','1124','1125','1128','1129','1130']
     #for participant in ['1107','1110','1114','1117','1121','1125','1128','1129','1130']:
-    data_path ='/rds/projects/j/jenseno-opm/cross_modal_project/'+participant+'/'
+    data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
     result_path=data_path+'proccessed/w_head_movement'
 
     path_to_save = result_path + '/category_class_w_time/' 

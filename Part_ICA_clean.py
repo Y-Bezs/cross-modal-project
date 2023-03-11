@@ -41,7 +41,7 @@ Part_info_ICA={
         '230209':[1,2,10],
         #'230214':[16,27], #25 bad?
         '230215':[9,18,26],
-        #'230217':[2,10,23], #not done
+        '230217':[2,12,17], #not done
         '230216':[2,10,23],
         '230222':[8,20],
         '230223':[9,19], #30
@@ -49,9 +49,9 @@ Part_info_ICA={
         '230227':[0,2]
 }
 participant_arr=list(Part_info_ICA.keys())
-for participant in ['230223']:#Part_info:
-        data_path ='/rds/projects/j/jenseno-opm/cross_modal_project/'+participant
-        result_path=data_path +'/proccessed/w_head_movement'
+for participant in ['230217']:#Part_info:
+        data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant
+        result_path=data_path +'/proccessed'#/w_head_movement'
         data_name = 'full'
         path_data = os.path.join(result_path,data_name +'_ann-1.fif') 
         data_raw = mne.io.read_raw_fif(path_data, allow_maxshield=True,preload=True,verbose=True)

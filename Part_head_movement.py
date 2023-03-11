@@ -3,7 +3,7 @@ def Cat_all(sub):
         data_name = 'full'
         participant_arr=list(Part_info.keys())        
         participant=participant_arr[sub-1]
-        data_path ='/rds/projects/j/jenseno-opm/cross_modal_project/'+participant+'/'
+        data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
         result_path=data_path + 'proccessed/'
         old = 1 if Part_info[participant]<109 else 1
         newpath = result_path + '/head_movement' 

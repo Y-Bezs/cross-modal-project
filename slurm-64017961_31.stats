@@ -1,0 +1,17 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Mar 10 16:49:33 2023 for yxb968(639678)
+| Identity jobid 64017968 jobname Part_head_movement.sh
+| Array Identity 64017961_31
+| Running against project jenseno-opm and in partition cascadelake-hdr-shared
+| Requested cpu=1,mem=72G,node=1,billing=1 - 03:00:00 walltime
+| Assigned to nodes bear-pg0206u31a
+| Command /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_head_movement.sh
+| WorkDir /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Mar 10 17:25:27 2023 for yxb968(639678) on the BlueBEAR Cluster
+| Required (35:04.846 cputime, 12838779K memory used) - 00:35:54 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

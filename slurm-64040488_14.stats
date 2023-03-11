@@ -1,0 +1,17 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Mar 10 20:15:37 2023 for yxb968(639678)
+| Identity jobid 64040502 jobname Part_PrePros.sh
+| Array Identity 64040488_14
+| Running against project jenseno-opm and in partition icelake-shared
+| Requested cpu=1,mem=256G,node=1,billing=1 - 04:00:00 walltime
+| Assigned to nodes bear-pg0203u20b
+| Command /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.sh
+| WorkDir /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Mar 10 20:36:06 2023 for yxb968(639678) on the BlueBEAR Cluster
+| Required (20:02.353 cputime, 72208464K memory used) - 00:20:32 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

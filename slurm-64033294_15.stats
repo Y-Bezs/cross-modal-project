@@ -1,0 +1,17 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Mar 10 19:28:22 2023 for yxb968(639678)
+| Identity jobid 64033333 jobname Part_PrePros.sh
+| Array Identity 64033294_15
+| Running against project jenseno-opm and in partition broadwell-shared
+| Requested cpu=1,mem=72G,node=1,billing=1 - 04:00:00 walltime
+| Assigned to nodes bear-pg0210u23a
+| Command /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.sh
+| WorkDir /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Mar 10 19:57:56 2023 for yxb968(639678) on the BlueBEAR Cluster
+| Required (28:01.440 cputime, 56374857K memory used) - 00:29:39 walltime
+| JobState COMPLETING - Reason OutOfMemory
+| Exitcode 0:125
++--------------------------------------------------------------------------+

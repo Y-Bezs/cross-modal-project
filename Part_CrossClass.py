@@ -1,39 +1,12 @@
 from init_y import *
 from sklearn.metrics import accuracy_score, make_scorer, roc_auc_score
 
-result_all_path='/rds/projects/j/jenseno-opm/cross_modal_project/Across_participants/CrossClass'
+result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/CrossClass_w_time'
+if not os.path.exists(result_all_path):
+    os.makedirs(result_all_path)
 
 aa = 4
 sub = 1
-Part_info={
-        '221107':105,
-        '221110':107,
-        '221114':108,
-        '221121':111,
-        '221124':112,
-        '221125':113,
-        '221128':114,
-        '221129':115,
-        '221130':116,
-        '221213':117,
-        '230113':118,
-        '230118':119,
-        '230119':120,
-        '230120':121,
-        #'230124':122,
-        #'230125':123,
-        #'230126':124,
-        #'230127':125,
-        #'230130':126,
-        #'230131':127
-}
-
-events_id = {'start_000/w/still/small/man':240+1,'start_100/w/move/small/man':32+1, 'start_010/w/still/big/man':64+1,
-            'start_110/w/move/big/man':96+1, 'start_001/w/still/small/nat':128+1, 'start_101/w/move/small/nat':160+1, 
-            'start_011/w/still/big/nat':192+1, 'start_111/w/move/big/nat':224+1,'start_000/p/still/small/man':240+2,
-            'start_100/p/move/small/man':32+2, 'start_010/p/still/big/man':64+2, 'start_110/p/move/big/man':96+2,
-            'start_001/p/still/small/nat':128+2, 'start_101/p/move/small/nat':160+2, 'start_011/p/still/big/nat':192+2, 
-            'start_111/p/move/big/nat':224+2}
 
 participant_arr=list(Part_info.keys())
 
@@ -43,38 +16,35 @@ Category = {
         "21":"big",
         "22":"small",
         "31":"nat",
-        "32":"man"
-}
+        "32":"man"}
 
 method={
     1:"_all_trials",
     2:"_sptrl",
     3:"_all_tr_right",
-    4:"_sptrl_right"
-}
-print(aa)
+    4:"_sptrl_right"}
+
 
 sc = np.zeros((np.size(list(Part_info)),271,3))
 
 for ii in range(np.size(participant_arr)):
     participant=participant_arr[ii]
-    data_path ='/rds/projects/j/jenseno-opm/cross_modal_project/'+participant+'/'
-    result_path=data_path+'/proccessed/'
+    data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
+    result_path=data_path+'/proccessed/w_head_movement'
 
-    if aa==1:
-        path_file = os.path.join(result_path,data_name+'_epo.fif') 
-        epochs= mne.read_epochs(path_file, preload=True,verbose=True)
-    elif aa==2:
-        path_file = os.path.join(result_path,data_name+'_epo-right.fif') 
-        epochs= mne.read_epochs(path_file, preload=True,verbose=True)
-    elif aa==3:
-        path_file = os.path.join(result_path,data_name+'_supertrials.fif') 
-        epochs= mne.read_epochs(path_file, preload=True,verbose=True)
-    else:
-        path_file = os.path.join(result_path,data_name+'_supertrials-right.fif') 
-        epochs= mne.read_epochs(path_file, preload=True,verbose=True)
-        
-    epochs.event_id=events_id
+    def read_epochs(aa, result_path, data_name):
+        file_extensions = {
+            1: '_epo.fif',
+            2: '_epo-right.fif',
+            3: '_supertrials.fif',
+            4: '_supertrials-right.fif'
+        }
+        extension = file_extensions.get(aa, '_supertrials-right.fif')
+        path_file = os.path.join(result_path, data_name + '_supertrials-right.fif') 
+        epochs = mne.read_epochs(path_file, preload=True, verbose=True)
+        return epochs 
+    epochs = read_epochs(aa, result_path, data_name)       
+    epochs.event_id=events_id 
     mc = 1
     cat_arr=[11,21,31]
     for count,cat in enumerate(cat_arr):

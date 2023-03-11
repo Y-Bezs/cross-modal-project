@@ -1,0 +1,2713 @@
+GCCcore/11.2.0
+zlib/1.2.11-GCCcore-11.2.0
+binutils/2.37-GCCcore-11.2.0
+bzip2/1.0.8-GCCcore-11.2.0
+zlib/1.2.11-GCCcore-11.2.0
+ncurses/6.2-GCCcore-11.2.0
+libreadline/8.1-GCCcore-11.2.0
+ncurses/6.2-GCCcore-11.2.0
+Tcl/8.6.11-GCCcore-11.2.0
+SQLite/3.36-GCCcore-11.2.0
+XZ/5.2.5-GCCcore-11.2.0
+GMP/6.2.1-GCCcore-11.2.0
+libffi/3.4.2-GCCcore-11.2.0
+OpenSSL/1.1
+Python/3.9.6-GCCcore-11.2.0
+GCC/11.2.0
+numactl/2.0.14-GCCcore-11.2.0
+libxml2/2.9.10-GCCcore-11.2.0
+libpciaccess/0.16-GCCcore-11.2.0
+hwloc/2.5.0-GCCcore-11.2.0
+libevent/2.1.12-GCCcore-11.2.0
+UCX/1.11.2-GCCcore-11.2.0
+libfabric/1.13.2-GCCcore-11.2.0
+PMIx/4.1.0-GCCcore-11.2.0
+OpenMPI/4.1.1-GCC-11.2.0
+OpenBLAS/0.3.18-GCC-11.2.0
+FlexiBLAS/3.0.4-GCC-11.2.0
+gompi/2021b
+FFTW/3.3.10-gompi-2021b
+ScaLAPACK/2.1.0-gompi-2021b-fb
+foss/2021b
+pybind11/2.7.1-GCCcore-11.2.0
+SciPy-bundle/2021.10-foss-2021b
+libxslt/1.1.34-GCCcore-11.2.0
+libpng/1.6.37-GCCcore-11.2.0
+Brotli/1.0.9-GCCcore-11.2.0
+freetype/2.11.0-GCCcore-11.2.0
+expat/2.4.1-GCCcore-11.2.0
+util-linux/2.37-GCCcore-11.2.0
+fontconfig/2.13.94-GCCcore-11.2.0
+xorg-macros/1.19.3-GCCcore-11.2.0
+X11/20210802-GCCcore-11.2.0
+Tk/8.6.11-GCCcore-11.2.0
+Tkinter/3.9.6-GCCcore-11.2.0
+NASM/2.15.05-GCCcore-11.2.0
+libjpeg-turbo/2.0.6-GCCcore-11.2.0
+jbigkit/2.1-GCCcore-11.2.0
+gzip/1.10-GCCcore-11.2.0
+lz4/1.9.3-GCCcore-11.2.0
+zstd/1.5.0-GCCcore-11.2.0
+LibTIFF/4.3.0-GCCcore-11.2.0
+Pillow/8.3.2-GCCcore-11.2.0
+Qhull/2020.2-GCCcore-11.2.0
+matplotlib/3.4.3-foss-2021b
+tqdm/4.62.3-GCCcore-11.2.0
+scikit-learn/1.0.1-foss-2021b
+LLVM/12.0.1-GCCcore-11.2.0
+numba/0.54.1-foss-2021b
+pydicom/2.2.2-GCCcore-11.2.0
+NiBabel/3.2.2-foss-2021b
+Szip/2.1.1-GCCcore-11.2.0
+HDF5/1.12.1-gompi-2021b
+h5py/3.6.0-foss-2021b
+imageio/2.13.5-foss-2021b
+libdrm/2.4.107-GCCcore-11.2.0
+libglvnd/1.3.3-GCCcore-11.2.0
+libunwind/1.5.0-GCCcore-11.2.0
+Mesa/21.1.7-GCCcore-11.2.0
+libGLU/9.0.2-GCCcore-11.2.0
+VTK/9.1.0-foss-2021b
+MNE-Python/1.1.1-foss-2021b
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif...
+/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py:25: RuntimeWarning: This filename (/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  data_raw = mne.io.read_raw_fif(path_data, allow_maxshield=True,preload=True,verbose=True)
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 128000 ... 1593999 =    128.000 ...  1593.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-1.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 1594000 ... 3059999 =   1594.000 ...  3059.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-2.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 3060000 ... 4505999 =   3060.000 ...  4505.999 secs
+Ready.
+Reading 0 ... 4377999  =      0.000 ...  4377.999 secs...
+12985 events found
+Event IDs: [  0   1   5   6   8  16  24  33  34  41  42  43  44  45  46  65  66  97
+  98 127 129 130 161 162 191 193 194 225 226 241 242 255]
+
+Detected 9 break periods of >= 7 sec duration:
+    0.0 – 53.2 sec [53.2 sec]
+    444.9 – 484.8 sec [39.9 sec]
+    882.5 – 941.8 sec [59.3 sec]
+    1353.2 – 1482.1 sec [128.9 sec]
+    1877.1 – 1945.3 sec [68.3 sec]
+    2352.2 – 2453.7 sec [101.5 sec]
+    2855.9 – 2964.1 sec [108.1 sec]
+    3373.4 – 3455.5 sec [82.1 sec]
+    3857.6 – 3957.9 sec [100.3 sec]
+In total, 16.9% of the data (741.7 sec) have been marked as a break.
+
+Applying low-pass filter with 40.0 Hz cutoff frequency ...
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 331 samples (0.331 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 306 out of 306 | elapsed:   36.1s finished
+Scanning for bad channels in 723 intervals (5.0 sec) ...
+102 of 102 magnetometer types replaced with T3.
+    No bad MEG channels
+    Processing 204 gradiometers and 102 magnetometers
+    Using fine calibration sss_cal_SA.dat
+        Adjusting non-orthogonal EX and EY
+        Adjusted coil positions by (μ ± σ): 0.3° ± 0.3° (max: 1.7°)
+    Automatic origin fit: head of radius 87.4 mm
+    Using origin 2.1, 4.9, 36.1 mm in the head frame
+        Interval   1:   53.242 -   58.241
+        Interval   2:   58.242 -   63.241
+        Interval   3:   63.242 -   68.241
+        Interval   4:   68.242 -   73.241
+        Interval   5:   73.242 -   78.241
+        Interval   6:   78.242 -   83.241
+        Interval   7:   83.242 -   88.241
+        Interval   8:   88.242 -   93.241
+        Interval   9:   93.242 -   98.241
+        Interval  10:   98.242 -  103.241
+        Interval  11:  103.242 -  108.241
+        Interval  12:  108.242 -  113.241
+        Interval  13:  113.242 -  118.241
+        Interval  14:  118.242 -  123.241
+        Interval  15:  123.242 -  128.241
+        Interval  16:  128.242 -  133.241
+        Interval  17:  133.242 -  138.241
+        Interval  18:  138.242 -  143.241
+        Interval  19:  143.242 -  148.241
+        Interval  20:  148.242 -  153.241
+        Interval  21:  153.242 -  158.241
+        Interval  22:  158.242 -  163.241
+        Interval  23:  163.242 -  168.241
+        Interval  24:  168.242 -  173.241
+        Interval  25:  173.242 -  178.241
+        Interval  26:  178.242 -  183.241
+        Interval  27:  183.242 -  188.241
+        Interval  28:  188.242 -  193.241
+        Interval  29:  193.242 -  198.241
+        Interval  30:  198.242 -  203.241
+        Interval  31:  203.242 -  208.241
+        Interval  32:  208.242 -  213.241
+        Interval  33:  213.242 -  218.241
+        Interval  34:  218.242 -  223.241
+        Interval  35:  223.242 -  228.241
+        Interval  36:  228.242 -  233.241
+        Interval  37:  233.242 -  238.241
+        Interval  38:  238.242 -  243.241
+        Interval  39:  243.242 -  248.241
+        Interval  40:  248.242 -  253.241
+        Interval  41:  253.242 -  258.241
+        Interval  42:  258.242 -  263.241
+        Interval  43:  263.242 -  268.241
+        Interval  44:  268.242 -  273.241
+        Interval  45:  273.242 -  278.241
+        Interval  46:  278.242 -  283.241
+        Interval  47:  283.242 -  288.241
+        Interval  48:  288.242 -  293.241
+        Interval  49:  293.242 -  298.241
+        Interval  50:  298.242 -  303.241
+        Interval  51:  303.242 -  308.241
+        Interval  52:  308.242 -  313.241
+        Interval  53:  313.242 -  318.241
+        Interval  54:  318.242 -  323.241
+        Interval  55:  323.242 -  328.241
+        Interval  56:  328.242 -  333.241
+        Interval  57:  333.242 -  338.241
+        Interval  58:  338.242 -  343.241
+        Interval  59:  343.242 -  348.241
+        Interval  60:  348.242 -  353.241
+        Interval  61:  353.242 -  358.241
+        Interval  62:  358.242 -  363.241
+        Interval  63:  363.242 -  368.241
+        Interval  64:  368.242 -  373.241
+        Interval  65:  373.242 -  378.241
+        Interval  66:  378.242 -  383.241
+        Interval  67:  383.242 -  388.241
+        Interval  68:  388.242 -  393.241
+        Interval  69:  393.242 -  398.241
+        Interval  70:  398.242 -  403.241
+        Interval  71:  403.242 -  408.241
+        Interval  72:  408.242 -  413.241
+        Interval  73:  413.242 -  418.241
+        Interval  74:  418.242 -  423.241
+        Interval  75:  423.242 -  428.241
+        Interval  76:  428.242 -  433.241
+        Interval  77:  433.242 -  438.241
+        Interval  78:  438.242 -  444.895
+        Interval  79:  484.815 -  489.814
+        Interval  80:  489.815 -  494.814
+        Interval  81:  494.815 -  499.814
+        Interval  82:  499.815 -  504.814
+        Interval  83:  504.815 -  509.814
+        Interval  84:  509.815 -  514.814
+        Interval  85:  514.815 -  519.814
+        Interval  86:  519.815 -  524.814
+        Interval  87:  524.815 -  529.814
+        Interval  88:  529.815 -  534.814
+        Interval  89:  534.815 -  539.814
+        Interval  90:  539.815 -  544.814
+        Interval  91:  544.815 -  549.814
+        Interval  92:  549.815 -  554.814
+        Interval  93:  554.815 -  559.814
+        Interval  94:  559.815 -  564.814
+        Interval  95:  564.815 -  569.814
+        Interval  96:  569.815 -  574.814
+        Interval  97:  574.815 -  579.814
+        Interval  98:  579.815 -  584.814
+        Interval  99:  584.815 -  589.814
+        Interval 100:  589.815 -  594.814
+        Interval 101:  594.815 -  599.814
+        Interval 102:  599.815 -  604.814
+        Interval 103:  604.815 -  609.814
+        Interval 104:  609.815 -  614.814
+        Interval 105:  614.815 -  619.814
+        Interval 106:  619.815 -  624.814
+        Interval 107:  624.815 -  629.814
+        Interval 108:  629.815 -  634.814
+        Interval 109:  634.815 -  639.814
+        Interval 110:  639.815 -  644.814
+        Interval 111:  644.815 -  649.814
+        Interval 112:  649.815 -  654.814
+        Interval 113:  654.815 -  659.814
+        Interval 114:  659.815 -  664.814
+        Interval 115:  664.815 -  669.814
+        Interval 116:  669.815 -  674.814
+        Interval 117:  674.815 -  679.814
+        Interval 118:  679.815 -  684.814
+        Interval 119:  684.815 -  689.814
+        Interval 120:  689.815 -  694.814
+        Interval 121:  694.815 -  699.814
+        Interval 122:  699.815 -  704.814
+        Interval 123:  704.815 -  709.814
+        Interval 124:  709.815 -  714.814
+        Interval 125:  714.815 -  719.814
+        Interval 126:  719.815 -  724.814
+        Interval 127:  724.815 -  729.814
+        Interval 128:  729.815 -  734.814
+        Interval 129:  734.815 -  739.814
+        Interval 130:  739.815 -  744.814
+        Interval 131:  744.815 -  749.814
+        Interval 132:  749.815 -  754.814
+        Interval 133:  754.815 -  759.814
+        Interval 134:  759.815 -  764.814
+        Interval 135:  764.815 -  769.814
+        Interval 136:  769.815 -  774.814
+        Interval 137:  774.815 -  779.814
+        Interval 138:  779.815 -  784.814
+        Interval 139:  784.815 -  789.814
+        Interval 140:  789.815 -  794.814
+        Interval 141:  794.815 -  799.814
+        Interval 142:  799.815 -  804.814
+        Interval 143:  804.815 -  809.814
+        Interval 144:  809.815 -  814.814
+        Interval 145:  814.815 -  819.814
+        Interval 146:  819.815 -  824.814
+        Interval 147:  824.815 -  829.814
+        Interval 148:  829.815 -  834.814
+        Interval 149:  834.815 -  839.814
+        Interval 150:  839.815 -  844.814
+        Interval 151:  844.815 -  849.814
+        Interval 152:  849.815 -  854.814
+        Interval 153:  854.815 -  859.814
+        Interval 154:  859.815 -  864.814
+        Interval 155:  864.815 -  869.814
+        Interval 156:  869.815 -  874.814
+        Interval 157:  874.815 -  882.499
+        Interval 158:  941.792 -  946.791
+        Interval 159:  946.792 -  951.791
+        Interval 160:  951.792 -  956.791
+        Interval 161:  956.792 -  961.791
+        Interval 162:  961.792 -  966.791
+        Interval 163:  966.792 -  971.791
+        Interval 164:  971.792 -  976.791
+        Interval 165:  976.792 -  981.791
+        Interval 166:  981.792 -  986.791
+        Interval 167:  986.792 -  991.791
+        Interval 168:  991.792 -  996.791
+        Interval 169:  996.792 - 1001.791
+        Interval 170: 1001.792 - 1006.791
+        Interval 171: 1006.792 - 1011.791
+        Interval 172: 1011.792 - 1016.791
+        Interval 173: 1016.792 - 1021.791
+        Interval 174: 1021.792 - 1026.791
+        Interval 175: 1026.792 - 1031.791
+        Interval 176: 1031.792 - 1036.791
+        Interval 177: 1036.792 - 1041.791
+        Interval 178: 1041.792 - 1046.791
+        Interval 179: 1046.792 - 1051.791
+        Interval 180: 1051.792 - 1056.791
+        Interval 181: 1056.792 - 1061.791
+        Interval 182: 1061.792 - 1066.791
+        Interval 183: 1066.792 - 1071.791
+        Interval 184: 1071.792 - 1076.791
+        Interval 185: 1076.792 - 1081.791
+        Interval 186: 1081.792 - 1086.791
+        Interval 187: 1086.792 - 1091.791
+        Interval 188: 1091.792 - 1096.791
+        Interval 189: 1096.792 - 1101.791
+        Interval 190: 1101.792 - 1106.791
+        Interval 191: 1106.792 - 1111.791
+        Interval 192: 1111.792 - 1116.791
+        Interval 193: 1116.792 - 1121.791
+        Interval 194: 1121.792 - 1126.791
+        Interval 195: 1126.792 - 1131.791
+        Interval 196: 1131.792 - 1136.791
+        Interval 197: 1136.792 - 1141.791
+        Interval 198: 1141.792 - 1146.791
+        Interval 199: 1146.792 - 1151.791
+        Interval 200: 1151.792 - 1156.791
+        Interval 201: 1156.792 - 1161.791
+        Interval 202: 1161.792 - 1166.791
+        Interval 203: 1166.792 - 1171.791
+        Interval 204: 1171.792 - 1176.791
+        Interval 205: 1176.792 - 1181.791
+        Interval 206: 1181.792 - 1186.791
+        Interval 207: 1186.792 - 1191.791
+        Interval 208: 1191.792 - 1196.791
+        Interval 209: 1196.792 - 1201.791
+        Interval 210: 1201.792 - 1206.791
+        Interval 211: 1206.792 - 1211.791
+        Interval 212: 1211.792 - 1216.791
+        Interval 213: 1216.792 - 1221.791
+        Interval 214: 1221.792 - 1226.791
+        Interval 215: 1226.792 - 1231.791
+        Interval 216: 1231.792 - 1236.791
+        Interval 217: 1236.792 - 1241.791
+        Interval 218: 1241.792 - 1246.791
+        Interval 219: 1246.792 - 1251.791
+        Interval 220: 1251.792 - 1256.791
+        Interval 221: 1256.792 - 1261.791
+        Interval 222: 1261.792 - 1266.791
+        Interval 223: 1266.792 - 1271.791
+        Interval 224: 1271.792 - 1276.791
+        Interval 225: 1276.792 - 1281.791
+        Interval 226: 1281.792 - 1286.791
+        Interval 227: 1286.792 - 1291.791
+        Interval 228: 1291.792 - 1296.791
+        Interval 229: 1296.792 - 1301.791
+        Interval 230: 1301.792 - 1306.791
+        Interval 231: 1306.792 - 1311.791
+        Interval 232: 1311.792 - 1316.791
+        Interval 233: 1316.792 - 1321.791
+        Interval 234: 1321.792 - 1326.791
+        Interval 235: 1326.792 - 1331.791
+        Interval 236: 1331.792 - 1336.791
+        Interval 237: 1336.792 - 1341.791
+        Interval 238: 1341.792 - 1346.791
+        Interval 239: 1346.792 - 1353.213
+        Interval 240: 1482.131 - 1487.130
+        Interval 241: 1487.131 - 1492.130
+        Interval 242: 1492.131 - 1497.130
+        Interval 243: 1497.131 - 1502.130
+        Interval 244: 1502.131 - 1507.130
+        Interval 245: 1507.131 - 1512.130
+        Interval 246: 1512.131 - 1517.130
+        Interval 247: 1517.131 - 1522.130
+        Interval 248: 1522.131 - 1527.130
+        Interval 249: 1527.131 - 1532.130
+        Interval 250: 1532.131 - 1537.130
+        Interval 251: 1537.131 - 1542.130
+        Interval 252: 1542.131 - 1547.130
+        Interval 253: 1547.131 - 1552.130
+        Interval 254: 1552.131 - 1557.130
+        Interval 255: 1557.131 - 1562.130
+        Interval 256: 1562.131 - 1567.130
+        Interval 257: 1567.131 - 1572.130
+        Interval 258: 1572.131 - 1577.130
+        Interval 259: 1577.131 - 1582.130
+        Interval 260: 1582.131 - 1587.130
+        Interval 261: 1587.131 - 1592.130
+        Interval 262: 1592.131 - 1597.130
+        Interval 263: 1597.131 - 1602.130
+        Interval 264: 1602.131 - 1607.130
+        Interval 265: 1607.131 - 1612.130
+        Interval 266: 1612.131 - 1617.130
+        Interval 267: 1617.131 - 1622.130
+        Interval 268: 1622.131 - 1627.130
+        Interval 269: 1627.131 - 1632.130
+        Interval 270: 1632.131 - 1637.130
+        Interval 271: 1637.131 - 1642.130
+        Interval 272: 1642.131 - 1647.130
+        Interval 273: 1647.131 - 1652.130
+        Interval 274: 1652.131 - 1657.130
+        Interval 275: 1657.131 - 1662.130
+        Interval 276: 1662.131 - 1667.130
+        Interval 277: 1667.131 - 1672.130
+        Interval 278: 1672.131 - 1677.130
+        Interval 279: 1677.131 - 1682.130
+        Interval 280: 1682.131 - 1687.130
+        Interval 281: 1687.131 - 1692.130
+        Interval 282: 1692.131 - 1697.130
+        Interval 283: 1697.131 - 1702.130
+        Interval 284: 1702.131 - 1707.130
+        Interval 285: 1707.131 - 1712.130
+        Interval 286: 1712.131 - 1717.130
+        Interval 287: 1717.131 - 1722.130
+        Interval 288: 1722.131 - 1727.130
+        Interval 289: 1727.131 - 1732.130
+        Interval 290: 1732.131 - 1737.130
+        Interval 291: 1737.131 - 1742.130
+        Interval 292: 1742.131 - 1747.130
+        Interval 293: 1747.131 - 1752.130
+        Interval 294: 1752.131 - 1757.130
+        Interval 295: 1757.131 - 1762.130
+        Interval 296: 1762.131 - 1767.130
+        Interval 297: 1767.131 - 1772.130
+        Interval 298: 1772.131 - 1777.130
+        Interval 299: 1777.131 - 1782.130
+        Interval 300: 1782.131 - 1787.130
+        Interval 301: 1787.131 - 1792.130
+        Interval 302: 1792.131 - 1797.130
+        Interval 303: 1797.131 - 1802.130
+        Interval 304: 1802.131 - 1807.130
+        Interval 305: 1807.131 - 1812.130
+        Interval 306: 1812.131 - 1817.130
+        Interval 307: 1817.131 - 1822.130
+        Interval 308: 1822.131 - 1827.130
+        Interval 309: 1827.131 - 1832.130
+        Interval 310: 1832.131 - 1837.130
+        Interval 311: 1837.131 - 1842.130
+        Interval 312: 1842.131 - 1847.130
+        Interval 313: 1847.131 - 1852.130
+        Interval 314: 1852.131 - 1857.130
+        Interval 315: 1857.131 - 1862.130
+        Interval 316: 1862.131 - 1867.130
+        Interval 317: 1867.131 - 1877.055
+        Interval 318: 1945.347 - 1950.346
+        Interval 319: 1950.347 - 1955.346
+        Interval 320: 1955.347 - 1960.346
+        Interval 321: 1960.347 - 1965.346
+        Interval 322: 1965.347 - 1970.346
+        Interval 323: 1970.347 - 1975.346
+        Interval 324: 1975.347 - 1980.346
+        Interval 325: 1980.347 - 1985.346
+        Interval 326: 1985.347 - 1990.346
+        Interval 327: 1990.347 - 1995.346
+        Interval 328: 1995.347 - 2000.346
+        Interval 329: 2000.347 - 2005.346
+        Interval 330: 2005.347 - 2010.346
+        Interval 331: 2010.347 - 2015.346
+        Interval 332: 2015.347 - 2020.346
+        Interval 333: 2020.347 - 2025.346
+        Interval 334: 2025.347 - 2030.346
+        Interval 335: 2030.347 - 2035.346
+        Interval 336: 2035.347 - 2040.346
+        Interval 337: 2040.347 - 2045.346
+        Interval 338: 2045.347 - 2050.346
+        Interval 339: 2050.347 - 2055.346
+        Interval 340: 2055.347 - 2060.346
+        Interval 341: 2060.347 - 2065.346
+        Interval 342: 2065.347 - 2070.346
+        Interval 343: 2070.347 - 2075.346
+        Interval 344: 2075.347 - 2080.346
+        Interval 345: 2080.347 - 2085.346
+        Interval 346: 2085.347 - 2090.346
+        Interval 347: 2090.347 - 2095.346
+        Interval 348: 2095.347 - 2100.346
+        Interval 349: 2100.347 - 2105.346
+        Interval 350: 2105.347 - 2110.346
+        Interval 351: 2110.347 - 2115.346
+        Interval 352: 2115.347 - 2120.346
+        Interval 353: 2120.347 - 2125.346
+        Interval 354: 2125.347 - 2130.346
+        Interval 355: 2130.347 - 2135.346
+        Interval 356: 2135.347 - 2140.346
+        Interval 357: 2140.347 - 2145.346
+        Interval 358: 2145.347 - 2150.346
+        Interval 359: 2150.347 - 2155.346
+        Interval 360: 2155.347 - 2160.346
+        Interval 361: 2160.347 - 2165.346
+        Interval 362: 2165.347 - 2170.346
+        Interval 363: 2170.347 - 2175.346
+        Interval 364: 2175.347 - 2180.346
+        Interval 365: 2180.347 - 2185.346
+        Interval 366: 2185.347 - 2190.346
+        Interval 367: 2190.347 - 2195.346
+        Interval 368: 2195.347 - 2200.346
+        Interval 369: 2200.347 - 2205.346
+        Interval 370: 2205.347 - 2210.346
+        Interval 371: 2210.347 - 2215.346
+        Interval 372: 2215.347 - 2220.346
+        Interval 373: 2220.347 - 2225.346
+        Interval 374: 2225.347 - 2230.346
+        Interval 375: 2230.347 - 2235.346
+        Interval 376: 2235.347 - 2240.346
+        Interval 377: 2240.347 - 2245.346
+        Interval 378: 2245.347 - 2250.346
+        Interval 379: 2250.347 - 2255.346
+        Interval 380: 2255.347 - 2260.346
+        Interval 381: 2260.347 - 2265.346
+        Interval 382: 2265.347 - 2270.346
+        Interval 383: 2270.347 - 2275.346
+        Interval 384: 2275.347 - 2280.346
+        Interval 385: 2280.347 - 2285.346
+        Interval 386: 2285.347 - 2290.346
+        Interval 387: 2290.347 - 2295.346
+        Interval 388: 2295.347 - 2300.346
+        Interval 389: 2300.347 - 2305.346
+        Interval 390: 2305.347 - 2310.346
+        Interval 391: 2310.347 - 2315.346
+        Interval 392: 2315.347 - 2320.346
+        Interval 393: 2320.347 - 2325.346
+        Interval 394: 2325.347 - 2330.346
+        Interval 395: 2330.347 - 2335.346
+        Interval 396: 2335.347 - 2340.346
+        Interval 397: 2340.347 - 2345.346
+        Interval 398: 2345.347 - 2352.208
+        Interval 399: 2453.667 - 2458.666
+        Interval 400: 2458.667 - 2463.666
+        Interval 401: 2463.667 - 2468.666
+        Interval 402: 2468.667 - 2473.666
+        Interval 403: 2473.667 - 2478.666
+        Interval 404: 2478.667 - 2483.666
+        Interval 405: 2483.667 - 2488.666
+        Interval 406: 2488.667 - 2493.666
+        Interval 407: 2493.667 - 2498.666
+        Interval 408: 2498.667 - 2503.666
+        Interval 409: 2503.667 - 2508.666
+        Interval 410: 2508.667 - 2513.666
+        Interval 411: 2513.667 - 2518.666
+        Interval 412: 2518.667 - 2523.666
+        Interval 413: 2523.667 - 2528.666
+        Interval 414: 2528.667 - 2533.666
+        Interval 415: 2533.667 - 2538.666
+        Interval 416: 2538.667 - 2543.666
+        Interval 417: 2543.667 - 2548.666
+        Interval 418: 2548.667 - 2553.666
+        Interval 419: 2553.667 - 2558.666
+        Interval 420: 2558.667 - 2563.666
+        Interval 421: 2563.667 - 2568.666
+        Interval 422: 2568.667 - 2573.666
+        Interval 423: 2573.667 - 2578.666
+        Interval 424: 2578.667 - 2583.666
+        Interval 425: 2583.667 - 2588.666
+        Interval 426: 2588.667 - 2593.666
+        Interval 427: 2593.667 - 2598.666
+        Interval 428: 2598.667 - 2603.666
+        Interval 429: 2603.667 - 2608.666
+        Interval 430: 2608.667 - 2613.666
+        Interval 431: 2613.667 - 2618.666
+        Interval 432: 2618.667 - 2623.666
+        Interval 433: 2623.667 - 2628.666
+        Interval 434: 2628.667 - 2633.666
+        Interval 435: 2633.667 - 2638.666
+        Interval 436: 2638.667 - 2643.666
+        Interval 437: 2643.667 - 2648.666
+        Interval 438: 2648.667 - 2653.666
+        Interval 439: 2653.667 - 2658.666
+        Interval 440: 2658.667 - 2663.666
+        Interval 441: 2663.667 - 2668.666
+        Interval 442: 2668.667 - 2673.666
+        Interval 443: 2673.667 - 2678.666
+        Interval 444: 2678.667 - 2683.666
+        Interval 445: 2683.667 - 2688.666
+        Interval 446: 2688.667 - 2693.666
+        Interval 447: 2693.667 - 2698.666
+        Interval 448: 2698.667 - 2703.666
+        Interval 449: 2703.667 - 2708.666
+        Interval 450: 2708.667 - 2713.666
+        Interval 451: 2713.667 - 2718.666
+        Interval 452: 2718.667 - 2723.666
+        Interval 453: 2723.667 - 2728.666
+        Interval 454: 2728.667 - 2733.666
+        Interval 455: 2733.667 - 2738.666
+        Interval 456: 2738.667 - 2743.666
+        Interval 457: 2743.667 - 2748.666
+        Interval 458: 2748.667 - 2753.666
+        Interval 459: 2753.667 - 2758.666
+        Interval 460: 2758.667 - 2763.666
+        Interval 461: 2763.667 - 2768.666
+        Interval 462: 2768.667 - 2773.666
+        Interval 463: 2773.667 - 2778.666
+        Interval 464: 2778.667 - 2783.666
+        Interval 465: 2783.667 - 2788.666
+        Interval 466: 2788.667 - 2793.666
+        Interval 467: 2793.667 - 2798.666
+        Interval 468: 2798.667 - 2803.666
+        Interval 469: 2803.667 - 2808.666
+        Interval 470: 2808.667 - 2813.666
+        Interval 471: 2813.667 - 2818.666
+        Interval 472: 2818.667 - 2823.666
+        Interval 473: 2823.667 - 2828.666
+        Interval 474: 2828.667 - 2833.666
+        Interval 475: 2833.667 - 2838.666
+        Interval 476: 2838.667 - 2843.666
+        Interval 477: 2843.667 - 2848.666
+        Interval 478: 2848.667 - 2855.947
+        Interval 479: 2964.081 - 2969.080
+        Interval 480: 2969.081 - 2974.080
+        Interval 481: 2974.081 - 2979.080
+        Interval 482: 2979.081 - 2984.080
+        Interval 483: 2984.081 - 2989.080
+        Interval 484: 2989.081 - 2994.080
+        Interval 485: 2994.081 - 2999.080
+        Interval 486: 2999.081 - 3004.080
+        Interval 487: 3004.081 - 3009.080
+        Interval 488: 3009.081 - 3014.080
+        Interval 489: 3014.081 - 3019.080
+        Interval 490: 3019.081 - 3024.080
+        Interval 491: 3024.081 - 3029.080
+        Interval 492: 3029.081 - 3034.080
+        Interval 493: 3034.081 - 3039.080
+        Interval 494: 3039.081 - 3044.080
+        Interval 495: 3044.081 - 3049.080
+        Interval 496: 3049.081 - 3054.080
+        Interval 497: 3054.081 - 3059.080
+        Interval 498: 3059.081 - 3064.080
+        Interval 499: 3064.081 - 3069.080
+        Interval 500: 3069.081 - 3074.080
+        Interval 501: 3074.081 - 3079.080
+        Interval 502: 3079.081 - 3084.080
+        Interval 503: 3084.081 - 3089.080
+        Interval 504: 3089.081 - 3094.080
+        Interval 505: 3094.081 - 3099.080
+        Interval 506: 3099.081 - 3104.080
+        Interval 507: 3104.081 - 3109.080
+        Interval 508: 3109.081 - 3114.080
+        Interval 509: 3114.081 - 3119.080
+        Interval 510: 3119.081 - 3124.080
+        Interval 511: 3124.081 - 3129.080
+        Interval 512: 3129.081 - 3134.080
+        Interval 513: 3134.081 - 3139.080
+        Interval 514: 3139.081 - 3144.080
+        Interval 515: 3144.081 - 3149.080
+        Interval 516: 3149.081 - 3154.080
+        Interval 517: 3154.081 - 3159.080
+        Interval 518: 3159.081 - 3164.080
+        Interval 519: 3164.081 - 3169.080
+        Interval 520: 3169.081 - 3174.080
+        Interval 521: 3174.081 - 3179.080
+        Interval 522: 3179.081 - 3184.080
+        Interval 523: 3184.081 - 3189.080
+        Interval 524: 3189.081 - 3194.080
+        Interval 525: 3194.081 - 3199.080
+        Interval 526: 3199.081 - 3204.080
+        Interval 527: 3204.081 - 3209.080
+        Interval 528: 3209.081 - 3214.080
+        Interval 529: 3214.081 - 3219.080
+        Interval 530: 3219.081 - 3224.080
+        Interval 531: 3224.081 - 3229.080
+        Interval 532: 3229.081 - 3234.080
+        Interval 533: 3234.081 - 3239.080
+        Interval 534: 3239.081 - 3244.080
+        Interval 535: 3244.081 - 3249.080
+        Interval 536: 3249.081 - 3254.080
+        Interval 537: 3254.081 - 3259.080
+        Interval 538: 3259.081 - 3264.080
+        Interval 539: 3264.081 - 3269.080
+        Interval 540: 3269.081 - 3274.080
+        Interval 541: 3274.081 - 3279.080
+        Interval 542: 3279.081 - 3284.080
+        Interval 543: 3284.081 - 3289.080
+        Interval 544: 3289.081 - 3294.080
+        Interval 545: 3294.081 - 3299.080
+        Interval 546: 3299.081 - 3304.080
+        Interval 547: 3304.081 - 3309.080
+        Interval 548: 3309.081 - 3314.080
+        Interval 549: 3314.081 - 3319.080
+        Interval 550: 3319.081 - 3324.080
+        Interval 551: 3324.081 - 3329.080
+        Interval 552: 3329.081 - 3334.080
+        Interval 553: 3334.081 - 3339.080
+        Interval 554: 3339.081 - 3344.080
+        Interval 555: 3344.081 - 3349.080
+        Interval 556: 3349.081 - 3354.080
+        Interval 557: 3354.081 - 3359.080
+        Interval 558: 3359.081 - 3364.080
+        Interval 559: 3364.081 - 3373.434
+        Interval 560: 3455.495 - 3460.494
+        Interval 561: 3460.495 - 3465.494
+        Interval 562: 3465.495 - 3470.494
+        Interval 563: 3470.495 - 3475.494
+        Interval 564: 3475.495 - 3480.494
+        Interval 565: 3480.495 - 3485.494
+        Interval 566: 3485.495 - 3490.494
+        Interval 567: 3490.495 - 3495.494
+        Interval 568: 3495.495 - 3500.494
+        Interval 569: 3500.495 - 3505.494
+        Interval 570: 3505.495 - 3510.494
+        Interval 571: 3510.495 - 3515.494
+        Interval 572: 3515.495 - 3520.494
+        Interval 573: 3520.495 - 3525.494
+        Interval 574: 3525.495 - 3530.494
+        Interval 575: 3530.495 - 3535.494
+        Interval 576: 3535.495 - 3540.494
+        Interval 577: 3540.495 - 3545.494
+        Interval 578: 3545.495 - 3550.494
+        Interval 579: 3550.495 - 3555.494
+        Interval 580: 3555.495 - 3560.494
+        Interval 581: 3560.495 - 3565.494
+        Interval 582: 3565.495 - 3570.494
+        Interval 583: 3570.495 - 3575.494
+        Interval 584: 3575.495 - 3580.494
+        Interval 585: 3580.495 - 3585.494
+        Interval 586: 3585.495 - 3590.494
+        Interval 587: 3590.495 - 3595.494
+        Interval 588: 3595.495 - 3600.494
+        Interval 589: 3600.495 - 3605.494
+        Interval 590: 3605.495 - 3610.494
+        Interval 591: 3610.495 - 3615.494
+        Interval 592: 3615.495 - 3620.494
+        Interval 593: 3620.495 - 3625.494
+        Interval 594: 3625.495 - 3630.494
+        Interval 595: 3630.495 - 3635.494
+        Interval 596: 3635.495 - 3640.494
+        Interval 597: 3640.495 - 3645.494
+        Interval 598: 3645.495 - 3650.494
+        Interval 599: 3650.495 - 3655.494
+        Interval 600: 3655.495 - 3660.494
+        Interval 601: 3660.495 - 3665.494
+        Interval 602: 3665.495 - 3670.494
+        Interval 603: 3670.495 - 3675.494
+        Interval 604: 3675.495 - 3680.494
+        Interval 605: 3680.495 - 3685.494
+        Interval 606: 3685.495 - 3690.494
+        Interval 607: 3690.495 - 3695.494
+        Interval 608: 3695.495 - 3700.494
+        Interval 609: 3700.495 - 3705.494
+        Interval 610: 3705.495 - 3710.494
+        Interval 611: 3710.495 - 3715.494
+        Interval 612: 3715.495 - 3720.494
+        Interval 613: 3720.495 - 3725.494
+        Interval 614: 3725.495 - 3730.494
+        Interval 615: 3730.495 - 3735.494
+        Interval 616: 3735.495 - 3740.494
+        Interval 617: 3740.495 - 3745.494
+        Interval 618: 3745.495 - 3750.494
+        Interval 619: 3750.495 - 3755.494
+        Interval 620: 3755.495 - 3760.494
+        Interval 621: 3760.495 - 3765.494
+        Interval 622: 3765.495 - 3770.494
+        Interval 623: 3770.495 - 3775.494
+        Interval 624: 3775.495 - 3780.494
+        Interval 625: 3780.495 - 3785.494
+        Interval 626: 3785.495 - 3790.494
+        Interval 627: 3790.495 - 3795.494
+        Interval 628: 3795.495 - 3800.494
+        Interval 629: 3800.495 - 3805.494
+        Interval 630: 3805.495 - 3810.494
+        Interval 631: 3810.495 - 3815.494
+        Interval 632: 3815.495 - 3820.494
+        Interval 633: 3820.495 - 3825.494
+        Interval 634: 3825.495 - 3830.494
+        Interval 635: 3830.495 - 3835.494
+        Interval 636: 3835.495 - 3840.494
+        Interval 637: 3840.495 - 3845.494
+        Interval 638: 3845.495 - 3850.494
+        Interval 639: 3850.495 - 3857.560
+        Interval 640: 3957.903 - 3962.902
+        Interval 641: 3962.903 - 3967.902
+        Interval 642: 3967.903 - 3972.902
+        Interval 643: 3972.903 - 3977.902
+        Interval 644: 3977.903 - 3982.902
+        Interval 645: 3982.903 - 3987.902
+        Interval 646: 3987.903 - 3992.902
+        Interval 647: 3992.903 - 3997.902
+        Interval 648: 3997.903 - 4002.902
+        Interval 649: 4002.903 - 4007.902
+        Interval 650: 4007.903 - 4012.902
+        Interval 651: 4012.903 - 4017.902
+        Interval 652: 4017.903 - 4022.902
+        Interval 653: 4022.903 - 4027.902
+        Interval 654: 4027.903 - 4032.902
+        Interval 655: 4032.903 - 4037.902
+        Interval 656: 4037.903 - 4042.902
+        Interval 657: 4042.903 - 4047.902
+        Interval 658: 4047.903 - 4052.902
+        Interval 659: 4052.903 - 4057.902
+        Interval 660: 4057.903 - 4062.902
+        Interval 661: 4062.903 - 4067.902
+        Interval 662: 4067.903 - 4072.902
+        Interval 663: 4072.903 - 4077.902
+        Interval 664: 4077.903 - 4082.902
+        Interval 665: 4082.903 - 4087.902
+        Interval 666: 4087.903 - 4092.902
+        Interval 667: 4092.903 - 4097.902
+        Interval 668: 4097.903 - 4102.902
+        Interval 669: 4102.903 - 4107.902
+        Interval 670: 4107.903 - 4112.902
+        Interval 671: 4112.903 - 4117.902
+        Interval 672: 4117.903 - 4122.902
+        Interval 673: 4122.903 - 4127.902
+        Interval 674: 4127.903 - 4132.902
+        Interval 675: 4132.903 - 4137.902
+        Interval 676: 4137.903 - 4142.902
+        Interval 677: 4142.903 - 4147.902
+        Interval 678: 4147.903 - 4152.902
+        Interval 679: 4152.903 - 4157.902
+        Interval 680: 4157.903 - 4162.902
+        Interval 681: 4162.903 - 4167.902
+        Interval 682: 4167.903 - 4172.902
+        Interval 683: 4172.903 - 4177.902
+        Interval 684: 4177.903 - 4182.902
+        Interval 685: 4182.903 - 4187.902
+        Interval 686: 4187.903 - 4192.902
+        Interval 687: 4192.903 - 4197.902
+        Interval 688: 4197.903 - 4202.902
+        Interval 689: 4202.903 - 4207.902
+        Interval 690: 4207.903 - 4212.902
+        Interval 691: 4212.903 - 4217.902
+        Interval 692: 4217.903 - 4222.902
+        Interval 693: 4222.903 - 4227.902
+        Interval 694: 4227.903 - 4232.902
+        Interval 695: 4232.903 - 4237.902
+        Interval 696: 4237.903 - 4242.902
+        Interval 697: 4242.903 - 4247.902
+        Interval 698: 4247.903 - 4252.902
+        Interval 699: 4252.903 - 4257.902
+        Interval 700: 4257.903 - 4262.902
+        Interval 701: 4262.903 - 4267.902
+        Interval 702: 4267.903 - 4272.902
+        Interval 703: 4272.903 - 4277.902
+        Interval 704: 4277.903 - 4282.902
+        Interval 705: 4282.903 - 4287.902
+        Interval 706: 4287.903 - 4292.902
+        Interval 707: 4292.903 - 4297.902
+        Interval 708: 4297.903 - 4302.902
+        Interval 709: 4302.903 - 4307.902
+        Interval 710: 4307.903 - 4312.902
+        Interval 711: 4312.903 - 4317.902
+        Interval 712: 4317.903 - 4322.902
+        Interval 713: 4322.903 - 4327.902
+        Interval 714: 4327.903 - 4332.902
+        Interval 715: 4332.903 - 4337.902
+        Interval 716: 4337.903 - 4342.902
+        Interval 717: 4342.903 - 4347.902
+        Interval 718: 4347.903 - 4352.902
+        Interval 719: 4352.903 - 4357.902
+        Interval 720: 4357.903 - 4362.902
+        Interval 721: 4362.903 - 4367.902
+        Interval 722: 4367.903 - 4372.902
+        Interval 723: 4372.903 - 4377.999
+    Static bad channels:  ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+    Static flat channels: []
+[done]
+noisy = ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+flat =  []
+102 of 102 magnetometer types replaced with T3.
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.2s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.3s finished
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 1e+02 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 100.00 Hz
+- Upper transition bandwidth: 25.00 Hz (-6 dB cutoff frequency: 112.50 Hz)
+- Filter length: 133 samples (0.133 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 306 out of 306 | elapsed:  1.0min finished
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 1.1e+02 - 1.4e+02 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 110.00
+- Lower transition bandwidth: 27.50 Hz (-6 dB cutoff frequency: 96.25 Hz)
+- Upper passband edge: 140.00 Hz
+- Upper transition bandwidth: 35.00 Hz (-6 dB cutoff frequency: 157.50 Hz)
+- Filter length: 121 samples (0.121 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 101 out of 101 | elapsed:   20.0s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Setting up low-pass filter at 4 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 4.00 Hz
+- Upper transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 5.00 Hz)
+- Filter length: 1651 samples (1.651 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s finished
+/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py:113: RuntimeWarning: This filename (/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  data_fltrd.save(path_file_results,overwrite=True)
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1.fif
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1-1.fif
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1-2.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1-2.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1-1.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/no_max/full_no_max_ann-1.fif
+[done]
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif...
+/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py:25: RuntimeWarning: This filename (/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  data_raw = mne.io.read_raw_fif(path_data, allow_maxshield=True,preload=True,verbose=True)
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 128000 ... 1593999 =    128.000 ...  1593.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-1.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 1594000 ... 3059999 =   1594.000 ...  3059.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-2.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 3060000 ... 4505999 =   3060.000 ...  4505.999 secs
+Ready.
+Reading 0 ... 4377999  =      0.000 ...  4377.999 secs...
+12985 events found
+Event IDs: [  0   1   5   6   8  16  24  33  34  41  42  43  44  45  46  65  66  97
+  98 127 129 130 161 162 191 193 194 225 226 241 242 255]
+
+Detected 9 break periods of >= 7 sec duration:
+    0.0 – 53.2 sec [53.2 sec]
+    444.9 – 484.8 sec [39.9 sec]
+    882.5 – 941.8 sec [59.3 sec]
+    1353.2 – 1482.1 sec [128.9 sec]
+    1877.1 – 1945.3 sec [68.3 sec]
+    2352.2 – 2453.7 sec [101.5 sec]
+    2855.9 – 2964.1 sec [108.1 sec]
+    3373.4 – 3455.5 sec [82.1 sec]
+    3857.6 – 3957.9 sec [100.3 sec]
+In total, 16.9% of the data (741.7 sec) have been marked as a break.
+
+Applying low-pass filter with 40.0 Hz cutoff frequency ...
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 331 samples (0.331 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 306 out of 306 | elapsed:   32.4s finished
+Scanning for bad channels in 723 intervals (5.0 sec) ...
+102 of 102 magnetometer types replaced with T3.
+    No bad MEG channels
+    Processing 204 gradiometers and 102 magnetometers
+    Using fine calibration sss_cal_SA.dat
+        Adjusting non-orthogonal EX and EY
+        Adjusted coil positions by (μ ± σ): 0.3° ± 0.3° (max: 1.7°)
+    Automatic origin fit: head of radius 87.4 mm
+    Using origin 2.1, 4.9, 36.1 mm in the head frame
+        Interval   1:   53.242 -   58.241
+        Interval   2:   58.242 -   63.241
+        Interval   3:   63.242 -   68.241
+        Interval   4:   68.242 -   73.241
+        Interval   5:   73.242 -   78.241
+        Interval   6:   78.242 -   83.241
+        Interval   7:   83.242 -   88.241
+        Interval   8:   88.242 -   93.241
+        Interval   9:   93.242 -   98.241
+        Interval  10:   98.242 -  103.241
+        Interval  11:  103.242 -  108.241
+        Interval  12:  108.242 -  113.241
+        Interval  13:  113.242 -  118.241
+        Interval  14:  118.242 -  123.241
+        Interval  15:  123.242 -  128.241
+        Interval  16:  128.242 -  133.241
+        Interval  17:  133.242 -  138.241
+        Interval  18:  138.242 -  143.241
+        Interval  19:  143.242 -  148.241
+        Interval  20:  148.242 -  153.241
+        Interval  21:  153.242 -  158.241
+        Interval  22:  158.242 -  163.241
+        Interval  23:  163.242 -  168.241
+        Interval  24:  168.242 -  173.241
+        Interval  25:  173.242 -  178.241
+        Interval  26:  178.242 -  183.241
+        Interval  27:  183.242 -  188.241
+        Interval  28:  188.242 -  193.241
+        Interval  29:  193.242 -  198.241
+        Interval  30:  198.242 -  203.241
+        Interval  31:  203.242 -  208.241
+        Interval  32:  208.242 -  213.241
+        Interval  33:  213.242 -  218.241
+        Interval  34:  218.242 -  223.241
+        Interval  35:  223.242 -  228.241
+        Interval  36:  228.242 -  233.241
+        Interval  37:  233.242 -  238.241
+        Interval  38:  238.242 -  243.241
+        Interval  39:  243.242 -  248.241
+        Interval  40:  248.242 -  253.241
+        Interval  41:  253.242 -  258.241
+        Interval  42:  258.242 -  263.241
+        Interval  43:  263.242 -  268.241
+        Interval  44:  268.242 -  273.241
+        Interval  45:  273.242 -  278.241
+        Interval  46:  278.242 -  283.241
+        Interval  47:  283.242 -  288.241
+        Interval  48:  288.242 -  293.241
+        Interval  49:  293.242 -  298.241
+        Interval  50:  298.242 -  303.241
+        Interval  51:  303.242 -  308.241
+        Interval  52:  308.242 -  313.241
+        Interval  53:  313.242 -  318.241
+        Interval  54:  318.242 -  323.241
+        Interval  55:  323.242 -  328.241
+        Interval  56:  328.242 -  333.241
+        Interval  57:  333.242 -  338.241
+        Interval  58:  338.242 -  343.241
+        Interval  59:  343.242 -  348.241
+        Interval  60:  348.242 -  353.241
+        Interval  61:  353.242 -  358.241
+        Interval  62:  358.242 -  363.241
+        Interval  63:  363.242 -  368.241
+        Interval  64:  368.242 -  373.241
+        Interval  65:  373.242 -  378.241
+        Interval  66:  378.242 -  383.241
+        Interval  67:  383.242 -  388.241
+        Interval  68:  388.242 -  393.241
+        Interval  69:  393.242 -  398.241
+        Interval  70:  398.242 -  403.241
+        Interval  71:  403.242 -  408.241
+        Interval  72:  408.242 -  413.241
+        Interval  73:  413.242 -  418.241
+        Interval  74:  418.242 -  423.241
+        Interval  75:  423.242 -  428.241
+        Interval  76:  428.242 -  433.241
+        Interval  77:  433.242 -  438.241
+        Interval  78:  438.242 -  444.895
+        Interval  79:  484.815 -  489.814
+        Interval  80:  489.815 -  494.814
+        Interval  81:  494.815 -  499.814
+        Interval  82:  499.815 -  504.814
+        Interval  83:  504.815 -  509.814
+        Interval  84:  509.815 -  514.814
+        Interval  85:  514.815 -  519.814
+        Interval  86:  519.815 -  524.814
+        Interval  87:  524.815 -  529.814
+        Interval  88:  529.815 -  534.814
+        Interval  89:  534.815 -  539.814
+        Interval  90:  539.815 -  544.814
+        Interval  91:  544.815 -  549.814
+        Interval  92:  549.815 -  554.814
+        Interval  93:  554.815 -  559.814
+        Interval  94:  559.815 -  564.814
+        Interval  95:  564.815 -  569.814
+        Interval  96:  569.815 -  574.814
+        Interval  97:  574.815 -  579.814
+        Interval  98:  579.815 -  584.814
+        Interval  99:  584.815 -  589.814
+        Interval 100:  589.815 -  594.814
+        Interval 101:  594.815 -  599.814
+        Interval 102:  599.815 -  604.814
+        Interval 103:  604.815 -  609.814
+        Interval 104:  609.815 -  614.814
+        Interval 105:  614.815 -  619.814
+        Interval 106:  619.815 -  624.814
+        Interval 107:  624.815 -  629.814
+        Interval 108:  629.815 -  634.814
+        Interval 109:  634.815 -  639.814
+        Interval 110:  639.815 -  644.814
+        Interval 111:  644.815 -  649.814
+        Interval 112:  649.815 -  654.814
+        Interval 113:  654.815 -  659.814
+        Interval 114:  659.815 -  664.814
+        Interval 115:  664.815 -  669.814
+        Interval 116:  669.815 -  674.814
+        Interval 117:  674.815 -  679.814
+        Interval 118:  679.815 -  684.814
+        Interval 119:  684.815 -  689.814
+        Interval 120:  689.815 -  694.814
+        Interval 121:  694.815 -  699.814
+        Interval 122:  699.815 -  704.814
+        Interval 123:  704.815 -  709.814
+        Interval 124:  709.815 -  714.814
+        Interval 125:  714.815 -  719.814
+        Interval 126:  719.815 -  724.814
+        Interval 127:  724.815 -  729.814
+        Interval 128:  729.815 -  734.814
+        Interval 129:  734.815 -  739.814
+        Interval 130:  739.815 -  744.814
+        Interval 131:  744.815 -  749.814
+        Interval 132:  749.815 -  754.814
+        Interval 133:  754.815 -  759.814
+        Interval 134:  759.815 -  764.814
+        Interval 135:  764.815 -  769.814
+        Interval 136:  769.815 -  774.814
+        Interval 137:  774.815 -  779.814
+        Interval 138:  779.815 -  784.814
+        Interval 139:  784.815 -  789.814
+        Interval 140:  789.815 -  794.814
+        Interval 141:  794.815 -  799.814
+        Interval 142:  799.815 -  804.814
+        Interval 143:  804.815 -  809.814
+        Interval 144:  809.815 -  814.814
+        Interval 145:  814.815 -  819.814
+        Interval 146:  819.815 -  824.814
+        Interval 147:  824.815 -  829.814
+        Interval 148:  829.815 -  834.814
+        Interval 149:  834.815 -  839.814
+        Interval 150:  839.815 -  844.814
+        Interval 151:  844.815 -  849.814
+        Interval 152:  849.815 -  854.814
+        Interval 153:  854.815 -  859.814
+        Interval 154:  859.815 -  864.814
+        Interval 155:  864.815 -  869.814
+        Interval 156:  869.815 -  874.814
+        Interval 157:  874.815 -  882.499
+        Interval 158:  941.792 -  946.791
+        Interval 159:  946.792 -  951.791
+        Interval 160:  951.792 -  956.791
+        Interval 161:  956.792 -  961.791
+        Interval 162:  961.792 -  966.791
+        Interval 163:  966.792 -  971.791
+        Interval 164:  971.792 -  976.791
+        Interval 165:  976.792 -  981.791
+        Interval 166:  981.792 -  986.791
+        Interval 167:  986.792 -  991.791
+        Interval 168:  991.792 -  996.791
+        Interval 169:  996.792 - 1001.791
+        Interval 170: 1001.792 - 1006.791
+        Interval 171: 1006.792 - 1011.791
+        Interval 172: 1011.792 - 1016.791
+        Interval 173: 1016.792 - 1021.791
+        Interval 174: 1021.792 - 1026.791
+        Interval 175: 1026.792 - 1031.791
+        Interval 176: 1031.792 - 1036.791
+        Interval 177: 1036.792 - 1041.791
+        Interval 178: 1041.792 - 1046.791
+        Interval 179: 1046.792 - 1051.791
+        Interval 180: 1051.792 - 1056.791
+        Interval 181: 1056.792 - 1061.791
+        Interval 182: 1061.792 - 1066.791
+        Interval 183: 1066.792 - 1071.791
+        Interval 184: 1071.792 - 1076.791
+        Interval 185: 1076.792 - 1081.791
+        Interval 186: 1081.792 - 1086.791
+        Interval 187: 1086.792 - 1091.791
+        Interval 188: 1091.792 - 1096.791
+        Interval 189: 1096.792 - 1101.791
+        Interval 190: 1101.792 - 1106.791
+        Interval 191: 1106.792 - 1111.791
+        Interval 192: 1111.792 - 1116.791
+        Interval 193: 1116.792 - 1121.791
+        Interval 194: 1121.792 - 1126.791
+        Interval 195: 1126.792 - 1131.791
+        Interval 196: 1131.792 - 1136.791
+        Interval 197: 1136.792 - 1141.791
+        Interval 198: 1141.792 - 1146.791
+        Interval 199: 1146.792 - 1151.791
+        Interval 200: 1151.792 - 1156.791
+        Interval 201: 1156.792 - 1161.791
+        Interval 202: 1161.792 - 1166.791
+        Interval 203: 1166.792 - 1171.791
+        Interval 204: 1171.792 - 1176.791
+        Interval 205: 1176.792 - 1181.791
+        Interval 206: 1181.792 - 1186.791
+        Interval 207: 1186.792 - 1191.791
+        Interval 208: 1191.792 - 1196.791
+        Interval 209: 1196.792 - 1201.791
+        Interval 210: 1201.792 - 1206.791
+        Interval 211: 1206.792 - 1211.791
+        Interval 212: 1211.792 - 1216.791
+        Interval 213: 1216.792 - 1221.791
+        Interval 214: 1221.792 - 1226.791
+        Interval 215: 1226.792 - 1231.791
+        Interval 216: 1231.792 - 1236.791
+        Interval 217: 1236.792 - 1241.791
+        Interval 218: 1241.792 - 1246.791
+        Interval 219: 1246.792 - 1251.791
+        Interval 220: 1251.792 - 1256.791
+        Interval 221: 1256.792 - 1261.791
+        Interval 222: 1261.792 - 1266.791
+        Interval 223: 1266.792 - 1271.791
+        Interval 224: 1271.792 - 1276.791
+        Interval 225: 1276.792 - 1281.791
+        Interval 226: 1281.792 - 1286.791
+        Interval 227: 1286.792 - 1291.791
+        Interval 228: 1291.792 - 1296.791
+        Interval 229: 1296.792 - 1301.791
+        Interval 230: 1301.792 - 1306.791
+        Interval 231: 1306.792 - 1311.791
+        Interval 232: 1311.792 - 1316.791
+        Interval 233: 1316.792 - 1321.791
+        Interval 234: 1321.792 - 1326.791
+        Interval 235: 1326.792 - 1331.791
+        Interval 236: 1331.792 - 1336.791
+        Interval 237: 1336.792 - 1341.791
+        Interval 238: 1341.792 - 1346.791
+        Interval 239: 1346.792 - 1353.213
+        Interval 240: 1482.131 - 1487.130
+        Interval 241: 1487.131 - 1492.130
+        Interval 242: 1492.131 - 1497.130
+        Interval 243: 1497.131 - 1502.130
+        Interval 244: 1502.131 - 1507.130
+        Interval 245: 1507.131 - 1512.130
+        Interval 246: 1512.131 - 1517.130
+        Interval 247: 1517.131 - 1522.130
+        Interval 248: 1522.131 - 1527.130
+        Interval 249: 1527.131 - 1532.130
+        Interval 250: 1532.131 - 1537.130
+        Interval 251: 1537.131 - 1542.130
+        Interval 252: 1542.131 - 1547.130
+        Interval 253: 1547.131 - 1552.130
+        Interval 254: 1552.131 - 1557.130
+        Interval 255: 1557.131 - 1562.130
+        Interval 256: 1562.131 - 1567.130
+        Interval 257: 1567.131 - 1572.130
+        Interval 258: 1572.131 - 1577.130
+        Interval 259: 1577.131 - 1582.130
+        Interval 260: 1582.131 - 1587.130
+        Interval 261: 1587.131 - 1592.130
+        Interval 262: 1592.131 - 1597.130
+        Interval 263: 1597.131 - 1602.130
+        Interval 264: 1602.131 - 1607.130
+        Interval 265: 1607.131 - 1612.130
+        Interval 266: 1612.131 - 1617.130
+        Interval 267: 1617.131 - 1622.130
+        Interval 268: 1622.131 - 1627.130
+        Interval 269: 1627.131 - 1632.130
+        Interval 270: 1632.131 - 1637.130
+        Interval 271: 1637.131 - 1642.130
+        Interval 272: 1642.131 - 1647.130
+        Interval 273: 1647.131 - 1652.130
+        Interval 274: 1652.131 - 1657.130
+        Interval 275: 1657.131 - 1662.130
+        Interval 276: 1662.131 - 1667.130
+        Interval 277: 1667.131 - 1672.130
+        Interval 278: 1672.131 - 1677.130
+        Interval 279: 1677.131 - 1682.130
+        Interval 280: 1682.131 - 1687.130
+        Interval 281: 1687.131 - 1692.130
+        Interval 282: 1692.131 - 1697.130
+        Interval 283: 1697.131 - 1702.130
+        Interval 284: 1702.131 - 1707.130
+        Interval 285: 1707.131 - 1712.130
+        Interval 286: 1712.131 - 1717.130
+        Interval 287: 1717.131 - 1722.130
+        Interval 288: 1722.131 - 1727.130
+        Interval 289: 1727.131 - 1732.130
+        Interval 290: 1732.131 - 1737.130
+        Interval 291: 1737.131 - 1742.130
+        Interval 292: 1742.131 - 1747.130
+        Interval 293: 1747.131 - 1752.130
+        Interval 294: 1752.131 - 1757.130
+        Interval 295: 1757.131 - 1762.130
+        Interval 296: 1762.131 - 1767.130
+        Interval 297: 1767.131 - 1772.130
+        Interval 298: 1772.131 - 1777.130
+        Interval 299: 1777.131 - 1782.130
+        Interval 300: 1782.131 - 1787.130
+        Interval 301: 1787.131 - 1792.130
+        Interval 302: 1792.131 - 1797.130
+        Interval 303: 1797.131 - 1802.130
+        Interval 304: 1802.131 - 1807.130
+        Interval 305: 1807.131 - 1812.130
+        Interval 306: 1812.131 - 1817.130
+        Interval 307: 1817.131 - 1822.130
+        Interval 308: 1822.131 - 1827.130
+        Interval 309: 1827.131 - 1832.130
+        Interval 310: 1832.131 - 1837.130
+        Interval 311: 1837.131 - 1842.130
+        Interval 312: 1842.131 - 1847.130
+        Interval 313: 1847.131 - 1852.130
+        Interval 314: 1852.131 - 1857.130
+        Interval 315: 1857.131 - 1862.130
+        Interval 316: 1862.131 - 1867.130
+        Interval 317: 1867.131 - 1877.055
+        Interval 318: 1945.347 - 1950.346
+        Interval 319: 1950.347 - 1955.346
+        Interval 320: 1955.347 - 1960.346
+        Interval 321: 1960.347 - 1965.346
+        Interval 322: 1965.347 - 1970.346
+        Interval 323: 1970.347 - 1975.346
+        Interval 324: 1975.347 - 1980.346
+        Interval 325: 1980.347 - 1985.346
+        Interval 326: 1985.347 - 1990.346
+        Interval 327: 1990.347 - 1995.346
+        Interval 328: 1995.347 - 2000.346
+        Interval 329: 2000.347 - 2005.346
+        Interval 330: 2005.347 - 2010.346
+        Interval 331: 2010.347 - 2015.346
+        Interval 332: 2015.347 - 2020.346
+        Interval 333: 2020.347 - 2025.346
+        Interval 334: 2025.347 - 2030.346
+        Interval 335: 2030.347 - 2035.346
+        Interval 336: 2035.347 - 2040.346
+        Interval 337: 2040.347 - 2045.346
+        Interval 338: 2045.347 - 2050.346
+        Interval 339: 2050.347 - 2055.346
+        Interval 340: 2055.347 - 2060.346
+        Interval 341: 2060.347 - 2065.346
+        Interval 342: 2065.347 - 2070.346
+        Interval 343: 2070.347 - 2075.346
+        Interval 344: 2075.347 - 2080.346
+        Interval 345: 2080.347 - 2085.346
+        Interval 346: 2085.347 - 2090.346
+        Interval 347: 2090.347 - 2095.346
+        Interval 348: 2095.347 - 2100.346
+        Interval 349: 2100.347 - 2105.346
+        Interval 350: 2105.347 - 2110.346
+        Interval 351: 2110.347 - 2115.346
+        Interval 352: 2115.347 - 2120.346
+        Interval 353: 2120.347 - 2125.346
+        Interval 354: 2125.347 - 2130.346
+        Interval 355: 2130.347 - 2135.346
+        Interval 356: 2135.347 - 2140.346
+        Interval 357: 2140.347 - 2145.346
+        Interval 358: 2145.347 - 2150.346
+        Interval 359: 2150.347 - 2155.346
+        Interval 360: 2155.347 - 2160.346
+        Interval 361: 2160.347 - 2165.346
+        Interval 362: 2165.347 - 2170.346
+        Interval 363: 2170.347 - 2175.346
+        Interval 364: 2175.347 - 2180.346
+        Interval 365: 2180.347 - 2185.346
+        Interval 366: 2185.347 - 2190.346
+        Interval 367: 2190.347 - 2195.346
+        Interval 368: 2195.347 - 2200.346
+        Interval 369: 2200.347 - 2205.346
+        Interval 370: 2205.347 - 2210.346
+        Interval 371: 2210.347 - 2215.346
+        Interval 372: 2215.347 - 2220.346
+        Interval 373: 2220.347 - 2225.346
+        Interval 374: 2225.347 - 2230.346
+        Interval 375: 2230.347 - 2235.346
+        Interval 376: 2235.347 - 2240.346
+        Interval 377: 2240.347 - 2245.346
+        Interval 378: 2245.347 - 2250.346
+        Interval 379: 2250.347 - 2255.346
+        Interval 380: 2255.347 - 2260.346
+        Interval 381: 2260.347 - 2265.346
+        Interval 382: 2265.347 - 2270.346
+        Interval 383: 2270.347 - 2275.346
+        Interval 384: 2275.347 - 2280.346
+        Interval 385: 2280.347 - 2285.346
+        Interval 386: 2285.347 - 2290.346
+        Interval 387: 2290.347 - 2295.346
+        Interval 388: 2295.347 - 2300.346
+        Interval 389: 2300.347 - 2305.346
+        Interval 390: 2305.347 - 2310.346
+        Interval 391: 2310.347 - 2315.346
+        Interval 392: 2315.347 - 2320.346
+        Interval 393: 2320.347 - 2325.346
+        Interval 394: 2325.347 - 2330.346
+        Interval 395: 2330.347 - 2335.346
+        Interval 396: 2335.347 - 2340.346
+        Interval 397: 2340.347 - 2345.346
+        Interval 398: 2345.347 - 2352.208
+        Interval 399: 2453.667 - 2458.666
+        Interval 400: 2458.667 - 2463.666
+        Interval 401: 2463.667 - 2468.666
+        Interval 402: 2468.667 - 2473.666
+        Interval 403: 2473.667 - 2478.666
+        Interval 404: 2478.667 - 2483.666
+        Interval 405: 2483.667 - 2488.666
+        Interval 406: 2488.667 - 2493.666
+        Interval 407: 2493.667 - 2498.666
+        Interval 408: 2498.667 - 2503.666
+        Interval 409: 2503.667 - 2508.666
+        Interval 410: 2508.667 - 2513.666
+        Interval 411: 2513.667 - 2518.666
+        Interval 412: 2518.667 - 2523.666
+        Interval 413: 2523.667 - 2528.666
+        Interval 414: 2528.667 - 2533.666
+        Interval 415: 2533.667 - 2538.666
+        Interval 416: 2538.667 - 2543.666
+        Interval 417: 2543.667 - 2548.666
+        Interval 418: 2548.667 - 2553.666
+        Interval 419: 2553.667 - 2558.666
+        Interval 420: 2558.667 - 2563.666
+        Interval 421: 2563.667 - 2568.666
+        Interval 422: 2568.667 - 2573.666
+        Interval 423: 2573.667 - 2578.666
+        Interval 424: 2578.667 - 2583.666
+        Interval 425: 2583.667 - 2588.666
+        Interval 426: 2588.667 - 2593.666
+        Interval 427: 2593.667 - 2598.666
+        Interval 428: 2598.667 - 2603.666
+        Interval 429: 2603.667 - 2608.666
+        Interval 430: 2608.667 - 2613.666
+        Interval 431: 2613.667 - 2618.666
+        Interval 432: 2618.667 - 2623.666
+        Interval 433: 2623.667 - 2628.666
+        Interval 434: 2628.667 - 2633.666
+        Interval 435: 2633.667 - 2638.666
+        Interval 436: 2638.667 - 2643.666
+        Interval 437: 2643.667 - 2648.666
+        Interval 438: 2648.667 - 2653.666
+        Interval 439: 2653.667 - 2658.666
+        Interval 440: 2658.667 - 2663.666
+        Interval 441: 2663.667 - 2668.666
+        Interval 442: 2668.667 - 2673.666
+        Interval 443: 2673.667 - 2678.666
+        Interval 444: 2678.667 - 2683.666
+        Interval 445: 2683.667 - 2688.666
+        Interval 446: 2688.667 - 2693.666
+        Interval 447: 2693.667 - 2698.666
+        Interval 448: 2698.667 - 2703.666
+        Interval 449: 2703.667 - 2708.666
+        Interval 450: 2708.667 - 2713.666
+        Interval 451: 2713.667 - 2718.666
+        Interval 452: 2718.667 - 2723.666
+        Interval 453: 2723.667 - 2728.666
+        Interval 454: 2728.667 - 2733.666
+        Interval 455: 2733.667 - 2738.666
+        Interval 456: 2738.667 - 2743.666
+        Interval 457: 2743.667 - 2748.666
+        Interval 458: 2748.667 - 2753.666
+        Interval 459: 2753.667 - 2758.666
+        Interval 460: 2758.667 - 2763.666
+        Interval 461: 2763.667 - 2768.666
+        Interval 462: 2768.667 - 2773.666
+        Interval 463: 2773.667 - 2778.666
+        Interval 464: 2778.667 - 2783.666
+        Interval 465: 2783.667 - 2788.666
+        Interval 466: 2788.667 - 2793.666
+        Interval 467: 2793.667 - 2798.666
+        Interval 468: 2798.667 - 2803.666
+        Interval 469: 2803.667 - 2808.666
+        Interval 470: 2808.667 - 2813.666
+        Interval 471: 2813.667 - 2818.666
+        Interval 472: 2818.667 - 2823.666
+        Interval 473: 2823.667 - 2828.666
+        Interval 474: 2828.667 - 2833.666
+        Interval 475: 2833.667 - 2838.666
+        Interval 476: 2838.667 - 2843.666
+        Interval 477: 2843.667 - 2848.666
+        Interval 478: 2848.667 - 2855.947
+        Interval 479: 2964.081 - 2969.080
+        Interval 480: 2969.081 - 2974.080
+        Interval 481: 2974.081 - 2979.080
+        Interval 482: 2979.081 - 2984.080
+        Interval 483: 2984.081 - 2989.080
+        Interval 484: 2989.081 - 2994.080
+        Interval 485: 2994.081 - 2999.080
+        Interval 486: 2999.081 - 3004.080
+        Interval 487: 3004.081 - 3009.080
+        Interval 488: 3009.081 - 3014.080
+        Interval 489: 3014.081 - 3019.080
+        Interval 490: 3019.081 - 3024.080
+        Interval 491: 3024.081 - 3029.080
+        Interval 492: 3029.081 - 3034.080
+        Interval 493: 3034.081 - 3039.080
+        Interval 494: 3039.081 - 3044.080
+        Interval 495: 3044.081 - 3049.080
+        Interval 496: 3049.081 - 3054.080
+        Interval 497: 3054.081 - 3059.080
+        Interval 498: 3059.081 - 3064.080
+        Interval 499: 3064.081 - 3069.080
+        Interval 500: 3069.081 - 3074.080
+        Interval 501: 3074.081 - 3079.080
+        Interval 502: 3079.081 - 3084.080
+        Interval 503: 3084.081 - 3089.080
+        Interval 504: 3089.081 - 3094.080
+        Interval 505: 3094.081 - 3099.080
+        Interval 506: 3099.081 - 3104.080
+        Interval 507: 3104.081 - 3109.080
+        Interval 508: 3109.081 - 3114.080
+        Interval 509: 3114.081 - 3119.080
+        Interval 510: 3119.081 - 3124.080
+        Interval 511: 3124.081 - 3129.080
+        Interval 512: 3129.081 - 3134.080
+        Interval 513: 3134.081 - 3139.080
+        Interval 514: 3139.081 - 3144.080
+        Interval 515: 3144.081 - 3149.080
+        Interval 516: 3149.081 - 3154.080
+        Interval 517: 3154.081 - 3159.080
+        Interval 518: 3159.081 - 3164.080
+        Interval 519: 3164.081 - 3169.080
+        Interval 520: 3169.081 - 3174.080
+        Interval 521: 3174.081 - 3179.080
+        Interval 522: 3179.081 - 3184.080
+        Interval 523: 3184.081 - 3189.080
+        Interval 524: 3189.081 - 3194.080
+        Interval 525: 3194.081 - 3199.080
+        Interval 526: 3199.081 - 3204.080
+        Interval 527: 3204.081 - 3209.080
+        Interval 528: 3209.081 - 3214.080
+        Interval 529: 3214.081 - 3219.080
+        Interval 530: 3219.081 - 3224.080
+        Interval 531: 3224.081 - 3229.080
+        Interval 532: 3229.081 - 3234.080
+        Interval 533: 3234.081 - 3239.080
+        Interval 534: 3239.081 - 3244.080
+        Interval 535: 3244.081 - 3249.080
+        Interval 536: 3249.081 - 3254.080
+        Interval 537: 3254.081 - 3259.080
+        Interval 538: 3259.081 - 3264.080
+        Interval 539: 3264.081 - 3269.080
+        Interval 540: 3269.081 - 3274.080
+        Interval 541: 3274.081 - 3279.080
+        Interval 542: 3279.081 - 3284.080
+        Interval 543: 3284.081 - 3289.080
+        Interval 544: 3289.081 - 3294.080
+        Interval 545: 3294.081 - 3299.080
+        Interval 546: 3299.081 - 3304.080
+        Interval 547: 3304.081 - 3309.080
+        Interval 548: 3309.081 - 3314.080
+        Interval 549: 3314.081 - 3319.080
+        Interval 550: 3319.081 - 3324.080
+        Interval 551: 3324.081 - 3329.080
+        Interval 552: 3329.081 - 3334.080
+        Interval 553: 3334.081 - 3339.080
+        Interval 554: 3339.081 - 3344.080
+        Interval 555: 3344.081 - 3349.080
+        Interval 556: 3349.081 - 3354.080
+        Interval 557: 3354.081 - 3359.080
+        Interval 558: 3359.081 - 3364.080
+        Interval 559: 3364.081 - 3373.434
+        Interval 560: 3455.495 - 3460.494
+        Interval 561: 3460.495 - 3465.494
+        Interval 562: 3465.495 - 3470.494
+        Interval 563: 3470.495 - 3475.494
+        Interval 564: 3475.495 - 3480.494
+        Interval 565: 3480.495 - 3485.494
+        Interval 566: 3485.495 - 3490.494
+        Interval 567: 3490.495 - 3495.494
+        Interval 568: 3495.495 - 3500.494
+        Interval 569: 3500.495 - 3505.494
+        Interval 570: 3505.495 - 3510.494
+        Interval 571: 3510.495 - 3515.494
+        Interval 572: 3515.495 - 3520.494
+        Interval 573: 3520.495 - 3525.494
+        Interval 574: 3525.495 - 3530.494
+        Interval 575: 3530.495 - 3535.494
+        Interval 576: 3535.495 - 3540.494
+        Interval 577: 3540.495 - 3545.494
+        Interval 578: 3545.495 - 3550.494
+        Interval 579: 3550.495 - 3555.494
+        Interval 580: 3555.495 - 3560.494
+        Interval 581: 3560.495 - 3565.494
+        Interval 582: 3565.495 - 3570.494
+        Interval 583: 3570.495 - 3575.494
+        Interval 584: 3575.495 - 3580.494
+        Interval 585: 3580.495 - 3585.494
+        Interval 586: 3585.495 - 3590.494
+        Interval 587: 3590.495 - 3595.494
+        Interval 588: 3595.495 - 3600.494
+        Interval 589: 3600.495 - 3605.494
+        Interval 590: 3605.495 - 3610.494
+        Interval 591: 3610.495 - 3615.494
+        Interval 592: 3615.495 - 3620.494
+        Interval 593: 3620.495 - 3625.494
+        Interval 594: 3625.495 - 3630.494
+        Interval 595: 3630.495 - 3635.494
+        Interval 596: 3635.495 - 3640.494
+        Interval 597: 3640.495 - 3645.494
+        Interval 598: 3645.495 - 3650.494
+        Interval 599: 3650.495 - 3655.494
+        Interval 600: 3655.495 - 3660.494
+        Interval 601: 3660.495 - 3665.494
+        Interval 602: 3665.495 - 3670.494
+        Interval 603: 3670.495 - 3675.494
+        Interval 604: 3675.495 - 3680.494
+        Interval 605: 3680.495 - 3685.494
+        Interval 606: 3685.495 - 3690.494
+        Interval 607: 3690.495 - 3695.494
+        Interval 608: 3695.495 - 3700.494
+        Interval 609: 3700.495 - 3705.494
+        Interval 610: 3705.495 - 3710.494
+        Interval 611: 3710.495 - 3715.494
+        Interval 612: 3715.495 - 3720.494
+        Interval 613: 3720.495 - 3725.494
+        Interval 614: 3725.495 - 3730.494
+        Interval 615: 3730.495 - 3735.494
+        Interval 616: 3735.495 - 3740.494
+        Interval 617: 3740.495 - 3745.494
+        Interval 618: 3745.495 - 3750.494
+        Interval 619: 3750.495 - 3755.494
+        Interval 620: 3755.495 - 3760.494
+        Interval 621: 3760.495 - 3765.494
+        Interval 622: 3765.495 - 3770.494
+        Interval 623: 3770.495 - 3775.494
+        Interval 624: 3775.495 - 3780.494
+        Interval 625: 3780.495 - 3785.494
+        Interval 626: 3785.495 - 3790.494
+        Interval 627: 3790.495 - 3795.494
+        Interval 628: 3795.495 - 3800.494
+        Interval 629: 3800.495 - 3805.494
+        Interval 630: 3805.495 - 3810.494
+        Interval 631: 3810.495 - 3815.494
+        Interval 632: 3815.495 - 3820.494
+        Interval 633: 3820.495 - 3825.494
+        Interval 634: 3825.495 - 3830.494
+        Interval 635: 3830.495 - 3835.494
+        Interval 636: 3835.495 - 3840.494
+        Interval 637: 3840.495 - 3845.494
+        Interval 638: 3845.495 - 3850.494
+        Interval 639: 3850.495 - 3857.560
+        Interval 640: 3957.903 - 3962.902
+        Interval 641: 3962.903 - 3967.902
+        Interval 642: 3967.903 - 3972.902
+        Interval 643: 3972.903 - 3977.902
+        Interval 644: 3977.903 - 3982.902
+        Interval 645: 3982.903 - 3987.902
+        Interval 646: 3987.903 - 3992.902
+        Interval 647: 3992.903 - 3997.902
+        Interval 648: 3997.903 - 4002.902
+        Interval 649: 4002.903 - 4007.902
+        Interval 650: 4007.903 - 4012.902
+        Interval 651: 4012.903 - 4017.902
+        Interval 652: 4017.903 - 4022.902
+        Interval 653: 4022.903 - 4027.902
+        Interval 654: 4027.903 - 4032.902
+        Interval 655: 4032.903 - 4037.902
+        Interval 656: 4037.903 - 4042.902
+        Interval 657: 4042.903 - 4047.902
+        Interval 658: 4047.903 - 4052.902
+        Interval 659: 4052.903 - 4057.902
+        Interval 660: 4057.903 - 4062.902
+        Interval 661: 4062.903 - 4067.902
+        Interval 662: 4067.903 - 4072.902
+        Interval 663: 4072.903 - 4077.902
+        Interval 664: 4077.903 - 4082.902
+        Interval 665: 4082.903 - 4087.902
+        Interval 666: 4087.903 - 4092.902
+        Interval 667: 4092.903 - 4097.902
+        Interval 668: 4097.903 - 4102.902
+        Interval 669: 4102.903 - 4107.902
+        Interval 670: 4107.903 - 4112.902
+        Interval 671: 4112.903 - 4117.902
+        Interval 672: 4117.903 - 4122.902
+        Interval 673: 4122.903 - 4127.902
+        Interval 674: 4127.903 - 4132.902
+        Interval 675: 4132.903 - 4137.902
+        Interval 676: 4137.903 - 4142.902
+        Interval 677: 4142.903 - 4147.902
+        Interval 678: 4147.903 - 4152.902
+        Interval 679: 4152.903 - 4157.902
+        Interval 680: 4157.903 - 4162.902
+        Interval 681: 4162.903 - 4167.902
+        Interval 682: 4167.903 - 4172.902
+        Interval 683: 4172.903 - 4177.902
+        Interval 684: 4177.903 - 4182.902
+        Interval 685: 4182.903 - 4187.902
+        Interval 686: 4187.903 - 4192.902
+        Interval 687: 4192.903 - 4197.902
+        Interval 688: 4197.903 - 4202.902
+        Interval 689: 4202.903 - 4207.902
+        Interval 690: 4207.903 - 4212.902
+        Interval 691: 4212.903 - 4217.902
+        Interval 692: 4217.903 - 4222.902
+        Interval 693: 4222.903 - 4227.902
+        Interval 694: 4227.903 - 4232.902
+        Interval 695: 4232.903 - 4237.902
+        Interval 696: 4237.903 - 4242.902
+        Interval 697: 4242.903 - 4247.902
+        Interval 698: 4247.903 - 4252.902
+        Interval 699: 4252.903 - 4257.902
+        Interval 700: 4257.903 - 4262.902
+        Interval 701: 4262.903 - 4267.902
+        Interval 702: 4267.903 - 4272.902
+        Interval 703: 4272.903 - 4277.902
+        Interval 704: 4277.903 - 4282.902
+        Interval 705: 4282.903 - 4287.902
+        Interval 706: 4287.903 - 4292.902
+        Interval 707: 4292.903 - 4297.902
+        Interval 708: 4297.903 - 4302.902
+        Interval 709: 4302.903 - 4307.902
+        Interval 710: 4307.903 - 4312.902
+        Interval 711: 4312.903 - 4317.902
+        Interval 712: 4317.903 - 4322.902
+        Interval 713: 4322.903 - 4327.902
+        Interval 714: 4327.903 - 4332.902
+        Interval 715: 4332.903 - 4337.902
+        Interval 716: 4337.903 - 4342.902
+        Interval 717: 4342.903 - 4347.902
+        Interval 718: 4347.903 - 4352.902
+        Interval 719: 4352.903 - 4357.902
+        Interval 720: 4357.903 - 4362.902
+        Interval 721: 4362.903 - 4367.902
+        Interval 722: 4367.903 - 4372.902
+        Interval 723: 4372.903 - 4377.999
+    Static bad channels:  ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+    Static flat channels: []
+[done]
+noisy = ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+flat =  []
+102 of 102 magnetometer types replaced with T3.
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   13.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   13.9s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.0s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.0s finished
+Maxwell filtering raw data
+    Bad MEG channels being reconstructed: ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+    Processing 204 gradiometers and 102 magnetometers
+    Using fine calibration sss_cal_SA.dat
+        Adjusting non-orthogonal EX and EY
+        Adjusted coil positions by (μ ± σ): 0.3° ± 0.3° (max: 1.7°)
+    Automatic origin fit: head of radius 87.4 mm
+    Using origin 2.1, 4.9, 36.1 mm in the head frame
+        Using 89/95 harmonic components for    0.000  (74/80 in, 15/15 out)
+    Using loaded raw data
+    Processing 360 data chunks
+[done]
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   14.3s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    7.2s finished
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 1e+02 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 100.00 Hz
+- Upper transition bandwidth: 25.00 Hz (-6 dB cutoff frequency: 112.50 Hz)
+- Filter length: 133 samples (0.133 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 306 out of 306 | elapsed:   59.9s finished
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 1.1e+02 - 1.4e+02 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 110.00
+- Lower transition bandwidth: 27.50 Hz (-6 dB cutoff frequency: 96.25 Hz)
+- Upper passband edge: 140.00 Hz
+- Upper transition bandwidth: 35.00 Hz (-6 dB cutoff frequency: 157.50 Hz)
+- Filter length: 121 samples (0.121 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 102 out of 102 | elapsed:   19.4s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Setting up low-pass filter at 4 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 4.00 Hz
+- Upper transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 5.00 Hz)
+- Filter length: 1651 samples (1.651 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s finished
+/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py:113: RuntimeWarning: This filename (/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  data_fltrd.save(path_file_results,overwrite=True)
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1.fif
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1-1.fif
+Overwriting existing file.
+Writing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1-2.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1-2.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1-1.fif
+Closing /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/max_wo_head/full_max_wo_head_ann-1.fif
+[done]
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif...
+/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py:25: RuntimeWarning: This filename (/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  data_raw = mne.io.read_raw_fif(path_data, allow_maxshield=True,preload=True,verbose=True)
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 128000 ... 1593999 =    128.000 ...  1593.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-1.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 1594000 ... 3059999 =   1594.000 ...  3059.999 secs
+Ready.
+Opening raw data file /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/full-2.fif...
+    Read a total of 8 projection items:
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+        generated with autossp-1.2.0 (1 x 306)  idle
+    Range : 3060000 ... 4505999 =   3060.000 ...  4505.999 secs
+Ready.
+Reading 0 ... 4377999  =      0.000 ...  4377.999 secs...
+12985 events found
+Event IDs: [  0   1   5   6   8  16  24  33  34  41  42  43  44  45  46  65  66  97
+  98 127 129 130 161 162 191 193 194 225 226 241 242 255]
+
+Detected 9 break periods of >= 7 sec duration:
+    0.0 – 53.2 sec [53.2 sec]
+    444.9 – 484.8 sec [39.9 sec]
+    882.5 – 941.8 sec [59.3 sec]
+    1353.2 – 1482.1 sec [128.9 sec]
+    1877.1 – 1945.3 sec [68.3 sec]
+    2352.2 – 2453.7 sec [101.5 sec]
+    2855.9 – 2964.1 sec [108.1 sec]
+    3373.4 – 3455.5 sec [82.1 sec]
+    3857.6 – 3957.9 sec [100.3 sec]
+In total, 16.9% of the data (741.7 sec) have been marked as a break.
+
+Applying low-pass filter with 40.0 Hz cutoff frequency ...
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 331 samples (0.331 sec)
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 306 out of 306 | elapsed:   32.6s finished
+Scanning for bad channels in 723 intervals (5.0 sec) ...
+102 of 102 magnetometer types replaced with T3.
+    No bad MEG channels
+    Processing 204 gradiometers and 102 magnetometers
+    Using fine calibration sss_cal_SA.dat
+        Adjusting non-orthogonal EX and EY
+        Adjusted coil positions by (μ ± σ): 0.3° ± 0.3° (max: 1.7°)
+    Automatic origin fit: head of radius 87.4 mm
+    Using origin 2.1, 4.9, 36.1 mm in the head frame
+        Interval   1:   53.242 -   58.241
+        Interval   2:   58.242 -   63.241
+        Interval   3:   63.242 -   68.241
+        Interval   4:   68.242 -   73.241
+        Interval   5:   73.242 -   78.241
+        Interval   6:   78.242 -   83.241
+        Interval   7:   83.242 -   88.241
+        Interval   8:   88.242 -   93.241
+        Interval   9:   93.242 -   98.241
+        Interval  10:   98.242 -  103.241
+        Interval  11:  103.242 -  108.241
+        Interval  12:  108.242 -  113.241
+        Interval  13:  113.242 -  118.241
+        Interval  14:  118.242 -  123.241
+        Interval  15:  123.242 -  128.241
+        Interval  16:  128.242 -  133.241
+        Interval  17:  133.242 -  138.241
+        Interval  18:  138.242 -  143.241
+        Interval  19:  143.242 -  148.241
+        Interval  20:  148.242 -  153.241
+        Interval  21:  153.242 -  158.241
+        Interval  22:  158.242 -  163.241
+        Interval  23:  163.242 -  168.241
+        Interval  24:  168.242 -  173.241
+        Interval  25:  173.242 -  178.241
+        Interval  26:  178.242 -  183.241
+        Interval  27:  183.242 -  188.241
+        Interval  28:  188.242 -  193.241
+        Interval  29:  193.242 -  198.241
+        Interval  30:  198.242 -  203.241
+        Interval  31:  203.242 -  208.241
+        Interval  32:  208.242 -  213.241
+        Interval  33:  213.242 -  218.241
+        Interval  34:  218.242 -  223.241
+        Interval  35:  223.242 -  228.241
+        Interval  36:  228.242 -  233.241
+        Interval  37:  233.242 -  238.241
+        Interval  38:  238.242 -  243.241
+        Interval  39:  243.242 -  248.241
+        Interval  40:  248.242 -  253.241
+        Interval  41:  253.242 -  258.241
+        Interval  42:  258.242 -  263.241
+        Interval  43:  263.242 -  268.241
+        Interval  44:  268.242 -  273.241
+        Interval  45:  273.242 -  278.241
+        Interval  46:  278.242 -  283.241
+        Interval  47:  283.242 -  288.241
+        Interval  48:  288.242 -  293.241
+        Interval  49:  293.242 -  298.241
+        Interval  50:  298.242 -  303.241
+        Interval  51:  303.242 -  308.241
+        Interval  52:  308.242 -  313.241
+        Interval  53:  313.242 -  318.241
+        Interval  54:  318.242 -  323.241
+        Interval  55:  323.242 -  328.241
+        Interval  56:  328.242 -  333.241
+        Interval  57:  333.242 -  338.241
+        Interval  58:  338.242 -  343.241
+        Interval  59:  343.242 -  348.241
+        Interval  60:  348.242 -  353.241
+        Interval  61:  353.242 -  358.241
+        Interval  62:  358.242 -  363.241
+        Interval  63:  363.242 -  368.241
+        Interval  64:  368.242 -  373.241
+        Interval  65:  373.242 -  378.241
+        Interval  66:  378.242 -  383.241
+        Interval  67:  383.242 -  388.241
+        Interval  68:  388.242 -  393.241
+        Interval  69:  393.242 -  398.241
+        Interval  70:  398.242 -  403.241
+        Interval  71:  403.242 -  408.241
+        Interval  72:  408.242 -  413.241
+        Interval  73:  413.242 -  418.241
+        Interval  74:  418.242 -  423.241
+        Interval  75:  423.242 -  428.241
+        Interval  76:  428.242 -  433.241
+        Interval  77:  433.242 -  438.241
+        Interval  78:  438.242 -  444.895
+        Interval  79:  484.815 -  489.814
+        Interval  80:  489.815 -  494.814
+        Interval  81:  494.815 -  499.814
+        Interval  82:  499.815 -  504.814
+        Interval  83:  504.815 -  509.814
+        Interval  84:  509.815 -  514.814
+        Interval  85:  514.815 -  519.814
+        Interval  86:  519.815 -  524.814
+        Interval  87:  524.815 -  529.814
+        Interval  88:  529.815 -  534.814
+        Interval  89:  534.815 -  539.814
+        Interval  90:  539.815 -  544.814
+        Interval  91:  544.815 -  549.814
+        Interval  92:  549.815 -  554.814
+        Interval  93:  554.815 -  559.814
+        Interval  94:  559.815 -  564.814
+        Interval  95:  564.815 -  569.814
+        Interval  96:  569.815 -  574.814
+        Interval  97:  574.815 -  579.814
+        Interval  98:  579.815 -  584.814
+        Interval  99:  584.815 -  589.814
+        Interval 100:  589.815 -  594.814
+        Interval 101:  594.815 -  599.814
+        Interval 102:  599.815 -  604.814
+        Interval 103:  604.815 -  609.814
+        Interval 104:  609.815 -  614.814
+        Interval 105:  614.815 -  619.814
+        Interval 106:  619.815 -  624.814
+        Interval 107:  624.815 -  629.814
+        Interval 108:  629.815 -  634.814
+        Interval 109:  634.815 -  639.814
+        Interval 110:  639.815 -  644.814
+        Interval 111:  644.815 -  649.814
+        Interval 112:  649.815 -  654.814
+        Interval 113:  654.815 -  659.814
+        Interval 114:  659.815 -  664.814
+        Interval 115:  664.815 -  669.814
+        Interval 116:  669.815 -  674.814
+        Interval 117:  674.815 -  679.814
+        Interval 118:  679.815 -  684.814
+        Interval 119:  684.815 -  689.814
+        Interval 120:  689.815 -  694.814
+        Interval 121:  694.815 -  699.814
+        Interval 122:  699.815 -  704.814
+        Interval 123:  704.815 -  709.814
+        Interval 124:  709.815 -  714.814
+        Interval 125:  714.815 -  719.814
+        Interval 126:  719.815 -  724.814
+        Interval 127:  724.815 -  729.814
+        Interval 128:  729.815 -  734.814
+        Interval 129:  734.815 -  739.814
+        Interval 130:  739.815 -  744.814
+        Interval 131:  744.815 -  749.814
+        Interval 132:  749.815 -  754.814
+        Interval 133:  754.815 -  759.814
+        Interval 134:  759.815 -  764.814
+        Interval 135:  764.815 -  769.814
+        Interval 136:  769.815 -  774.814
+        Interval 137:  774.815 -  779.814
+        Interval 138:  779.815 -  784.814
+        Interval 139:  784.815 -  789.814
+        Interval 140:  789.815 -  794.814
+        Interval 141:  794.815 -  799.814
+        Interval 142:  799.815 -  804.814
+        Interval 143:  804.815 -  809.814
+        Interval 144:  809.815 -  814.814
+        Interval 145:  814.815 -  819.814
+        Interval 146:  819.815 -  824.814
+        Interval 147:  824.815 -  829.814
+        Interval 148:  829.815 -  834.814
+        Interval 149:  834.815 -  839.814
+        Interval 150:  839.815 -  844.814
+        Interval 151:  844.815 -  849.814
+        Interval 152:  849.815 -  854.814
+        Interval 153:  854.815 -  859.814
+        Interval 154:  859.815 -  864.814
+        Interval 155:  864.815 -  869.814
+        Interval 156:  869.815 -  874.814
+        Interval 157:  874.815 -  882.499
+        Interval 158:  941.792 -  946.791
+        Interval 159:  946.792 -  951.791
+        Interval 160:  951.792 -  956.791
+        Interval 161:  956.792 -  961.791
+        Interval 162:  961.792 -  966.791
+        Interval 163:  966.792 -  971.791
+        Interval 164:  971.792 -  976.791
+        Interval 165:  976.792 -  981.791
+        Interval 166:  981.792 -  986.791
+        Interval 167:  986.792 -  991.791
+        Interval 168:  991.792 -  996.791
+        Interval 169:  996.792 - 1001.791
+        Interval 170: 1001.792 - 1006.791
+        Interval 171: 1006.792 - 1011.791
+        Interval 172: 1011.792 - 1016.791
+        Interval 173: 1016.792 - 1021.791
+        Interval 174: 1021.792 - 1026.791
+        Interval 175: 1026.792 - 1031.791
+        Interval 176: 1031.792 - 1036.791
+        Interval 177: 1036.792 - 1041.791
+        Interval 178: 1041.792 - 1046.791
+        Interval 179: 1046.792 - 1051.791
+        Interval 180: 1051.792 - 1056.791
+        Interval 181: 1056.792 - 1061.791
+        Interval 182: 1061.792 - 1066.791
+        Interval 183: 1066.792 - 1071.791
+        Interval 184: 1071.792 - 1076.791
+        Interval 185: 1076.792 - 1081.791
+        Interval 186: 1081.792 - 1086.791
+        Interval 187: 1086.792 - 1091.791
+        Interval 188: 1091.792 - 1096.791
+        Interval 189: 1096.792 - 1101.791
+        Interval 190: 1101.792 - 1106.791
+        Interval 191: 1106.792 - 1111.791
+        Interval 192: 1111.792 - 1116.791
+        Interval 193: 1116.792 - 1121.791
+        Interval 194: 1121.792 - 1126.791
+        Interval 195: 1126.792 - 1131.791
+        Interval 196: 1131.792 - 1136.791
+        Interval 197: 1136.792 - 1141.791
+        Interval 198: 1141.792 - 1146.791
+        Interval 199: 1146.792 - 1151.791
+        Interval 200: 1151.792 - 1156.791
+        Interval 201: 1156.792 - 1161.791
+        Interval 202: 1161.792 - 1166.791
+        Interval 203: 1166.792 - 1171.791
+        Interval 204: 1171.792 - 1176.791
+        Interval 205: 1176.792 - 1181.791
+        Interval 206: 1181.792 - 1186.791
+        Interval 207: 1186.792 - 1191.791
+        Interval 208: 1191.792 - 1196.791
+        Interval 209: 1196.792 - 1201.791
+        Interval 210: 1201.792 - 1206.791
+        Interval 211: 1206.792 - 1211.791
+        Interval 212: 1211.792 - 1216.791
+        Interval 213: 1216.792 - 1221.791
+        Interval 214: 1221.792 - 1226.791
+        Interval 215: 1226.792 - 1231.791
+        Interval 216: 1231.792 - 1236.791
+        Interval 217: 1236.792 - 1241.791
+        Interval 218: 1241.792 - 1246.791
+        Interval 219: 1246.792 - 1251.791
+        Interval 220: 1251.792 - 1256.791
+        Interval 221: 1256.792 - 1261.791
+        Interval 222: 1261.792 - 1266.791
+        Interval 223: 1266.792 - 1271.791
+        Interval 224: 1271.792 - 1276.791
+        Interval 225: 1276.792 - 1281.791
+        Interval 226: 1281.792 - 1286.791
+        Interval 227: 1286.792 - 1291.791
+        Interval 228: 1291.792 - 1296.791
+        Interval 229: 1296.792 - 1301.791
+        Interval 230: 1301.792 - 1306.791
+        Interval 231: 1306.792 - 1311.791
+        Interval 232: 1311.792 - 1316.791
+        Interval 233: 1316.792 - 1321.791
+        Interval 234: 1321.792 - 1326.791
+        Interval 235: 1326.792 - 1331.791
+        Interval 236: 1331.792 - 1336.791
+        Interval 237: 1336.792 - 1341.791
+        Interval 238: 1341.792 - 1346.791
+        Interval 239: 1346.792 - 1353.213
+        Interval 240: 1482.131 - 1487.130
+        Interval 241: 1487.131 - 1492.130
+        Interval 242: 1492.131 - 1497.130
+        Interval 243: 1497.131 - 1502.130
+        Interval 244: 1502.131 - 1507.130
+        Interval 245: 1507.131 - 1512.130
+        Interval 246: 1512.131 - 1517.130
+        Interval 247: 1517.131 - 1522.130
+        Interval 248: 1522.131 - 1527.130
+        Interval 249: 1527.131 - 1532.130
+        Interval 250: 1532.131 - 1537.130
+        Interval 251: 1537.131 - 1542.130
+        Interval 252: 1542.131 - 1547.130
+        Interval 253: 1547.131 - 1552.130
+        Interval 254: 1552.131 - 1557.130
+        Interval 255: 1557.131 - 1562.130
+        Interval 256: 1562.131 - 1567.130
+        Interval 257: 1567.131 - 1572.130
+        Interval 258: 1572.131 - 1577.130
+        Interval 259: 1577.131 - 1582.130
+        Interval 260: 1582.131 - 1587.130
+        Interval 261: 1587.131 - 1592.130
+        Interval 262: 1592.131 - 1597.130
+        Interval 263: 1597.131 - 1602.130
+        Interval 264: 1602.131 - 1607.130
+        Interval 265: 1607.131 - 1612.130
+        Interval 266: 1612.131 - 1617.130
+        Interval 267: 1617.131 - 1622.130
+        Interval 268: 1622.131 - 1627.130
+        Interval 269: 1627.131 - 1632.130
+        Interval 270: 1632.131 - 1637.130
+        Interval 271: 1637.131 - 1642.130
+        Interval 272: 1642.131 - 1647.130
+        Interval 273: 1647.131 - 1652.130
+        Interval 274: 1652.131 - 1657.130
+        Interval 275: 1657.131 - 1662.130
+        Interval 276: 1662.131 - 1667.130
+        Interval 277: 1667.131 - 1672.130
+        Interval 278: 1672.131 - 1677.130
+        Interval 279: 1677.131 - 1682.130
+        Interval 280: 1682.131 - 1687.130
+        Interval 281: 1687.131 - 1692.130
+        Interval 282: 1692.131 - 1697.130
+        Interval 283: 1697.131 - 1702.130
+        Interval 284: 1702.131 - 1707.130
+        Interval 285: 1707.131 - 1712.130
+        Interval 286: 1712.131 - 1717.130
+        Interval 287: 1717.131 - 1722.130
+        Interval 288: 1722.131 - 1727.130
+        Interval 289: 1727.131 - 1732.130
+        Interval 290: 1732.131 - 1737.130
+        Interval 291: 1737.131 - 1742.130
+        Interval 292: 1742.131 - 1747.130
+        Interval 293: 1747.131 - 1752.130
+        Interval 294: 1752.131 - 1757.130
+        Interval 295: 1757.131 - 1762.130
+        Interval 296: 1762.131 - 1767.130
+        Interval 297: 1767.131 - 1772.130
+        Interval 298: 1772.131 - 1777.130
+        Interval 299: 1777.131 - 1782.130
+        Interval 300: 1782.131 - 1787.130
+        Interval 301: 1787.131 - 1792.130
+        Interval 302: 1792.131 - 1797.130
+        Interval 303: 1797.131 - 1802.130
+        Interval 304: 1802.131 - 1807.130
+        Interval 305: 1807.131 - 1812.130
+        Interval 306: 1812.131 - 1817.130
+        Interval 307: 1817.131 - 1822.130
+        Interval 308: 1822.131 - 1827.130
+        Interval 309: 1827.131 - 1832.130
+        Interval 310: 1832.131 - 1837.130
+        Interval 311: 1837.131 - 1842.130
+        Interval 312: 1842.131 - 1847.130
+        Interval 313: 1847.131 - 1852.130
+        Interval 314: 1852.131 - 1857.130
+        Interval 315: 1857.131 - 1862.130
+        Interval 316: 1862.131 - 1867.130
+        Interval 317: 1867.131 - 1877.055
+        Interval 318: 1945.347 - 1950.346
+        Interval 319: 1950.347 - 1955.346
+        Interval 320: 1955.347 - 1960.346
+        Interval 321: 1960.347 - 1965.346
+        Interval 322: 1965.347 - 1970.346
+        Interval 323: 1970.347 - 1975.346
+        Interval 324: 1975.347 - 1980.346
+        Interval 325: 1980.347 - 1985.346
+        Interval 326: 1985.347 - 1990.346
+        Interval 327: 1990.347 - 1995.346
+        Interval 328: 1995.347 - 2000.346
+        Interval 329: 2000.347 - 2005.346
+        Interval 330: 2005.347 - 2010.346
+        Interval 331: 2010.347 - 2015.346
+        Interval 332: 2015.347 - 2020.346
+        Interval 333: 2020.347 - 2025.346
+        Interval 334: 2025.347 - 2030.346
+        Interval 335: 2030.347 - 2035.346
+        Interval 336: 2035.347 - 2040.346
+        Interval 337: 2040.347 - 2045.346
+        Interval 338: 2045.347 - 2050.346
+        Interval 339: 2050.347 - 2055.346
+        Interval 340: 2055.347 - 2060.346
+        Interval 341: 2060.347 - 2065.346
+        Interval 342: 2065.347 - 2070.346
+        Interval 343: 2070.347 - 2075.346
+        Interval 344: 2075.347 - 2080.346
+        Interval 345: 2080.347 - 2085.346
+        Interval 346: 2085.347 - 2090.346
+        Interval 347: 2090.347 - 2095.346
+        Interval 348: 2095.347 - 2100.346
+        Interval 349: 2100.347 - 2105.346
+        Interval 350: 2105.347 - 2110.346
+        Interval 351: 2110.347 - 2115.346
+        Interval 352: 2115.347 - 2120.346
+        Interval 353: 2120.347 - 2125.346
+        Interval 354: 2125.347 - 2130.346
+        Interval 355: 2130.347 - 2135.346
+        Interval 356: 2135.347 - 2140.346
+        Interval 357: 2140.347 - 2145.346
+        Interval 358: 2145.347 - 2150.346
+        Interval 359: 2150.347 - 2155.346
+        Interval 360: 2155.347 - 2160.346
+        Interval 361: 2160.347 - 2165.346
+        Interval 362: 2165.347 - 2170.346
+        Interval 363: 2170.347 - 2175.346
+        Interval 364: 2175.347 - 2180.346
+        Interval 365: 2180.347 - 2185.346
+        Interval 366: 2185.347 - 2190.346
+        Interval 367: 2190.347 - 2195.346
+        Interval 368: 2195.347 - 2200.346
+        Interval 369: 2200.347 - 2205.346
+        Interval 370: 2205.347 - 2210.346
+        Interval 371: 2210.347 - 2215.346
+        Interval 372: 2215.347 - 2220.346
+        Interval 373: 2220.347 - 2225.346
+        Interval 374: 2225.347 - 2230.346
+        Interval 375: 2230.347 - 2235.346
+        Interval 376: 2235.347 - 2240.346
+        Interval 377: 2240.347 - 2245.346
+        Interval 378: 2245.347 - 2250.346
+        Interval 379: 2250.347 - 2255.346
+        Interval 380: 2255.347 - 2260.346
+        Interval 381: 2260.347 - 2265.346
+        Interval 382: 2265.347 - 2270.346
+        Interval 383: 2270.347 - 2275.346
+        Interval 384: 2275.347 - 2280.346
+        Interval 385: 2280.347 - 2285.346
+        Interval 386: 2285.347 - 2290.346
+        Interval 387: 2290.347 - 2295.346
+        Interval 388: 2295.347 - 2300.346
+        Interval 389: 2300.347 - 2305.346
+        Interval 390: 2305.347 - 2310.346
+        Interval 391: 2310.347 - 2315.346
+        Interval 392: 2315.347 - 2320.346
+        Interval 393: 2320.347 - 2325.346
+        Interval 394: 2325.347 - 2330.346
+        Interval 395: 2330.347 - 2335.346
+        Interval 396: 2335.347 - 2340.346
+        Interval 397: 2340.347 - 2345.346
+        Interval 398: 2345.347 - 2352.208
+        Interval 399: 2453.667 - 2458.666
+        Interval 400: 2458.667 - 2463.666
+        Interval 401: 2463.667 - 2468.666
+        Interval 402: 2468.667 - 2473.666
+        Interval 403: 2473.667 - 2478.666
+        Interval 404: 2478.667 - 2483.666
+        Interval 405: 2483.667 - 2488.666
+        Interval 406: 2488.667 - 2493.666
+        Interval 407: 2493.667 - 2498.666
+        Interval 408: 2498.667 - 2503.666
+        Interval 409: 2503.667 - 2508.666
+        Interval 410: 2508.667 - 2513.666
+        Interval 411: 2513.667 - 2518.666
+        Interval 412: 2518.667 - 2523.666
+        Interval 413: 2523.667 - 2528.666
+        Interval 414: 2528.667 - 2533.666
+        Interval 415: 2533.667 - 2538.666
+        Interval 416: 2538.667 - 2543.666
+        Interval 417: 2543.667 - 2548.666
+        Interval 418: 2548.667 - 2553.666
+        Interval 419: 2553.667 - 2558.666
+        Interval 420: 2558.667 - 2563.666
+        Interval 421: 2563.667 - 2568.666
+        Interval 422: 2568.667 - 2573.666
+        Interval 423: 2573.667 - 2578.666
+        Interval 424: 2578.667 - 2583.666
+        Interval 425: 2583.667 - 2588.666
+        Interval 426: 2588.667 - 2593.666
+        Interval 427: 2593.667 - 2598.666
+        Interval 428: 2598.667 - 2603.666
+        Interval 429: 2603.667 - 2608.666
+        Interval 430: 2608.667 - 2613.666
+        Interval 431: 2613.667 - 2618.666
+        Interval 432: 2618.667 - 2623.666
+        Interval 433: 2623.667 - 2628.666
+        Interval 434: 2628.667 - 2633.666
+        Interval 435: 2633.667 - 2638.666
+        Interval 436: 2638.667 - 2643.666
+        Interval 437: 2643.667 - 2648.666
+        Interval 438: 2648.667 - 2653.666
+        Interval 439: 2653.667 - 2658.666
+        Interval 440: 2658.667 - 2663.666
+        Interval 441: 2663.667 - 2668.666
+        Interval 442: 2668.667 - 2673.666
+        Interval 443: 2673.667 - 2678.666
+        Interval 444: 2678.667 - 2683.666
+        Interval 445: 2683.667 - 2688.666
+        Interval 446: 2688.667 - 2693.666
+        Interval 447: 2693.667 - 2698.666
+        Interval 448: 2698.667 - 2703.666
+        Interval 449: 2703.667 - 2708.666
+        Interval 450: 2708.667 - 2713.666
+        Interval 451: 2713.667 - 2718.666
+        Interval 452: 2718.667 - 2723.666
+        Interval 453: 2723.667 - 2728.666
+        Interval 454: 2728.667 - 2733.666
+        Interval 455: 2733.667 - 2738.666
+        Interval 456: 2738.667 - 2743.666
+        Interval 457: 2743.667 - 2748.666
+        Interval 458: 2748.667 - 2753.666
+        Interval 459: 2753.667 - 2758.666
+        Interval 460: 2758.667 - 2763.666
+        Interval 461: 2763.667 - 2768.666
+        Interval 462: 2768.667 - 2773.666
+        Interval 463: 2773.667 - 2778.666
+        Interval 464: 2778.667 - 2783.666
+        Interval 465: 2783.667 - 2788.666
+        Interval 466: 2788.667 - 2793.666
+        Interval 467: 2793.667 - 2798.666
+        Interval 468: 2798.667 - 2803.666
+        Interval 469: 2803.667 - 2808.666
+        Interval 470: 2808.667 - 2813.666
+        Interval 471: 2813.667 - 2818.666
+        Interval 472: 2818.667 - 2823.666
+        Interval 473: 2823.667 - 2828.666
+        Interval 474: 2828.667 - 2833.666
+        Interval 475: 2833.667 - 2838.666
+        Interval 476: 2838.667 - 2843.666
+        Interval 477: 2843.667 - 2848.666
+        Interval 478: 2848.667 - 2855.947
+        Interval 479: 2964.081 - 2969.080
+        Interval 480: 2969.081 - 2974.080
+        Interval 481: 2974.081 - 2979.080
+        Interval 482: 2979.081 - 2984.080
+        Interval 483: 2984.081 - 2989.080
+        Interval 484: 2989.081 - 2994.080
+        Interval 485: 2994.081 - 2999.080
+        Interval 486: 2999.081 - 3004.080
+        Interval 487: 3004.081 - 3009.080
+        Interval 488: 3009.081 - 3014.080
+        Interval 489: 3014.081 - 3019.080
+        Interval 490: 3019.081 - 3024.080
+        Interval 491: 3024.081 - 3029.080
+        Interval 492: 3029.081 - 3034.080
+        Interval 493: 3034.081 - 3039.080
+        Interval 494: 3039.081 - 3044.080
+        Interval 495: 3044.081 - 3049.080
+        Interval 496: 3049.081 - 3054.080
+        Interval 497: 3054.081 - 3059.080
+        Interval 498: 3059.081 - 3064.080
+        Interval 499: 3064.081 - 3069.080
+        Interval 500: 3069.081 - 3074.080
+        Interval 501: 3074.081 - 3079.080
+        Interval 502: 3079.081 - 3084.080
+        Interval 503: 3084.081 - 3089.080
+        Interval 504: 3089.081 - 3094.080
+        Interval 505: 3094.081 - 3099.080
+        Interval 506: 3099.081 - 3104.080
+        Interval 507: 3104.081 - 3109.080
+        Interval 508: 3109.081 - 3114.080
+        Interval 509: 3114.081 - 3119.080
+        Interval 510: 3119.081 - 3124.080
+        Interval 511: 3124.081 - 3129.080
+        Interval 512: 3129.081 - 3134.080
+        Interval 513: 3134.081 - 3139.080
+        Interval 514: 3139.081 - 3144.080
+        Interval 515: 3144.081 - 3149.080
+        Interval 516: 3149.081 - 3154.080
+        Interval 517: 3154.081 - 3159.080
+        Interval 518: 3159.081 - 3164.080
+        Interval 519: 3164.081 - 3169.080
+        Interval 520: 3169.081 - 3174.080
+        Interval 521: 3174.081 - 3179.080
+        Interval 522: 3179.081 - 3184.080
+        Interval 523: 3184.081 - 3189.080
+        Interval 524: 3189.081 - 3194.080
+        Interval 525: 3194.081 - 3199.080
+        Interval 526: 3199.081 - 3204.080
+        Interval 527: 3204.081 - 3209.080
+        Interval 528: 3209.081 - 3214.080
+        Interval 529: 3214.081 - 3219.080
+        Interval 530: 3219.081 - 3224.080
+        Interval 531: 3224.081 - 3229.080
+        Interval 532: 3229.081 - 3234.080
+        Interval 533: 3234.081 - 3239.080
+        Interval 534: 3239.081 - 3244.080
+        Interval 535: 3244.081 - 3249.080
+        Interval 536: 3249.081 - 3254.080
+        Interval 537: 3254.081 - 3259.080
+        Interval 538: 3259.081 - 3264.080
+        Interval 539: 3264.081 - 3269.080
+        Interval 540: 3269.081 - 3274.080
+        Interval 541: 3274.081 - 3279.080
+        Interval 542: 3279.081 - 3284.080
+        Interval 543: 3284.081 - 3289.080
+        Interval 544: 3289.081 - 3294.080
+        Interval 545: 3294.081 - 3299.080
+        Interval 546: 3299.081 - 3304.080
+        Interval 547: 3304.081 - 3309.080
+        Interval 548: 3309.081 - 3314.080
+        Interval 549: 3314.081 - 3319.080
+        Interval 550: 3319.081 - 3324.080
+        Interval 551: 3324.081 - 3329.080
+        Interval 552: 3329.081 - 3334.080
+        Interval 553: 3334.081 - 3339.080
+        Interval 554: 3339.081 - 3344.080
+        Interval 555: 3344.081 - 3349.080
+        Interval 556: 3349.081 - 3354.080
+        Interval 557: 3354.081 - 3359.080
+        Interval 558: 3359.081 - 3364.080
+        Interval 559: 3364.081 - 3373.434
+        Interval 560: 3455.495 - 3460.494
+        Interval 561: 3460.495 - 3465.494
+        Interval 562: 3465.495 - 3470.494
+        Interval 563: 3470.495 - 3475.494
+        Interval 564: 3475.495 - 3480.494
+        Interval 565: 3480.495 - 3485.494
+        Interval 566: 3485.495 - 3490.494
+        Interval 567: 3490.495 - 3495.494
+        Interval 568: 3495.495 - 3500.494
+        Interval 569: 3500.495 - 3505.494
+        Interval 570: 3505.495 - 3510.494
+        Interval 571: 3510.495 - 3515.494
+        Interval 572: 3515.495 - 3520.494
+        Interval 573: 3520.495 - 3525.494
+        Interval 574: 3525.495 - 3530.494
+        Interval 575: 3530.495 - 3535.494
+        Interval 576: 3535.495 - 3540.494
+        Interval 577: 3540.495 - 3545.494
+        Interval 578: 3545.495 - 3550.494
+        Interval 579: 3550.495 - 3555.494
+        Interval 580: 3555.495 - 3560.494
+        Interval 581: 3560.495 - 3565.494
+        Interval 582: 3565.495 - 3570.494
+        Interval 583: 3570.495 - 3575.494
+        Interval 584: 3575.495 - 3580.494
+        Interval 585: 3580.495 - 3585.494
+        Interval 586: 3585.495 - 3590.494
+        Interval 587: 3590.495 - 3595.494
+        Interval 588: 3595.495 - 3600.494
+        Interval 589: 3600.495 - 3605.494
+        Interval 590: 3605.495 - 3610.494
+        Interval 591: 3610.495 - 3615.494
+        Interval 592: 3615.495 - 3620.494
+        Interval 593: 3620.495 - 3625.494
+        Interval 594: 3625.495 - 3630.494
+        Interval 595: 3630.495 - 3635.494
+        Interval 596: 3635.495 - 3640.494
+        Interval 597: 3640.495 - 3645.494
+        Interval 598: 3645.495 - 3650.494
+        Interval 599: 3650.495 - 3655.494
+        Interval 600: 3655.495 - 3660.494
+        Interval 601: 3660.495 - 3665.494
+        Interval 602: 3665.495 - 3670.494
+        Interval 603: 3670.495 - 3675.494
+        Interval 604: 3675.495 - 3680.494
+        Interval 605: 3680.495 - 3685.494
+        Interval 606: 3685.495 - 3690.494
+        Interval 607: 3690.495 - 3695.494
+        Interval 608: 3695.495 - 3700.494
+        Interval 609: 3700.495 - 3705.494
+        Interval 610: 3705.495 - 3710.494
+        Interval 611: 3710.495 - 3715.494
+        Interval 612: 3715.495 - 3720.494
+        Interval 613: 3720.495 - 3725.494
+        Interval 614: 3725.495 - 3730.494
+        Interval 615: 3730.495 - 3735.494
+        Interval 616: 3735.495 - 3740.494
+        Interval 617: 3740.495 - 3745.494
+        Interval 618: 3745.495 - 3750.494
+        Interval 619: 3750.495 - 3755.494
+        Interval 620: 3755.495 - 3760.494
+        Interval 621: 3760.495 - 3765.494
+        Interval 622: 3765.495 - 3770.494
+        Interval 623: 3770.495 - 3775.494
+        Interval 624: 3775.495 - 3780.494
+        Interval 625: 3780.495 - 3785.494
+        Interval 626: 3785.495 - 3790.494
+        Interval 627: 3790.495 - 3795.494
+        Interval 628: 3795.495 - 3800.494
+        Interval 629: 3800.495 - 3805.494
+        Interval 630: 3805.495 - 3810.494
+        Interval 631: 3810.495 - 3815.494
+        Interval 632: 3815.495 - 3820.494
+        Interval 633: 3820.495 - 3825.494
+        Interval 634: 3825.495 - 3830.494
+        Interval 635: 3830.495 - 3835.494
+        Interval 636: 3835.495 - 3840.494
+        Interval 637: 3840.495 - 3845.494
+        Interval 638: 3845.495 - 3850.494
+        Interval 639: 3850.495 - 3857.560
+        Interval 640: 3957.903 - 3962.902
+        Interval 641: 3962.903 - 3967.902
+        Interval 642: 3967.903 - 3972.902
+        Interval 643: 3972.903 - 3977.902
+        Interval 644: 3977.903 - 3982.902
+        Interval 645: 3982.903 - 3987.902
+        Interval 646: 3987.903 - 3992.902
+        Interval 647: 3992.903 - 3997.902
+        Interval 648: 3997.903 - 4002.902
+        Interval 649: 4002.903 - 4007.902
+        Interval 650: 4007.903 - 4012.902
+        Interval 651: 4012.903 - 4017.902
+        Interval 652: 4017.903 - 4022.902
+        Interval 653: 4022.903 - 4027.902
+        Interval 654: 4027.903 - 4032.902
+        Interval 655: 4032.903 - 4037.902
+        Interval 656: 4037.903 - 4042.902
+        Interval 657: 4042.903 - 4047.902
+        Interval 658: 4047.903 - 4052.902
+        Interval 659: 4052.903 - 4057.902
+        Interval 660: 4057.903 - 4062.902
+        Interval 661: 4062.903 - 4067.902
+        Interval 662: 4067.903 - 4072.902
+        Interval 663: 4072.903 - 4077.902
+        Interval 664: 4077.903 - 4082.902
+        Interval 665: 4082.903 - 4087.902
+        Interval 666: 4087.903 - 4092.902
+        Interval 667: 4092.903 - 4097.902
+        Interval 668: 4097.903 - 4102.902
+        Interval 669: 4102.903 - 4107.902
+        Interval 670: 4107.903 - 4112.902
+        Interval 671: 4112.903 - 4117.902
+        Interval 672: 4117.903 - 4122.902
+        Interval 673: 4122.903 - 4127.902
+        Interval 674: 4127.903 - 4132.902
+        Interval 675: 4132.903 - 4137.902
+        Interval 676: 4137.903 - 4142.902
+        Interval 677: 4142.903 - 4147.902
+        Interval 678: 4147.903 - 4152.902
+        Interval 679: 4152.903 - 4157.902
+        Interval 680: 4157.903 - 4162.902
+        Interval 681: 4162.903 - 4167.902
+        Interval 682: 4167.903 - 4172.902
+        Interval 683: 4172.903 - 4177.902
+        Interval 684: 4177.903 - 4182.902
+        Interval 685: 4182.903 - 4187.902
+        Interval 686: 4187.903 - 4192.902
+        Interval 687: 4192.903 - 4197.902
+        Interval 688: 4197.903 - 4202.902
+        Interval 689: 4202.903 - 4207.902
+        Interval 690: 4207.903 - 4212.902
+        Interval 691: 4212.903 - 4217.902
+        Interval 692: 4217.903 - 4222.902
+        Interval 693: 4222.903 - 4227.902
+        Interval 694: 4227.903 - 4232.902
+        Interval 695: 4232.903 - 4237.902
+        Interval 696: 4237.903 - 4242.902
+        Interval 697: 4242.903 - 4247.902
+        Interval 698: 4247.903 - 4252.902
+        Interval 699: 4252.903 - 4257.902
+        Interval 700: 4257.903 - 4262.902
+        Interval 701: 4262.903 - 4267.902
+        Interval 702: 4267.903 - 4272.902
+        Interval 703: 4272.903 - 4277.902
+        Interval 704: 4277.903 - 4282.902
+        Interval 705: 4282.903 - 4287.902
+        Interval 706: 4287.903 - 4292.902
+        Interval 707: 4292.903 - 4297.902
+        Interval 708: 4297.903 - 4302.902
+        Interval 709: 4302.903 - 4307.902
+        Interval 710: 4307.903 - 4312.902
+        Interval 711: 4312.903 - 4317.902
+        Interval 712: 4317.903 - 4322.902
+        Interval 713: 4322.903 - 4327.902
+        Interval 714: 4327.903 - 4332.902
+        Interval 715: 4332.903 - 4337.902
+        Interval 716: 4337.903 - 4342.902
+        Interval 717: 4342.903 - 4347.902
+        Interval 718: 4347.903 - 4352.902
+        Interval 719: 4352.903 - 4357.902
+        Interval 720: 4357.903 - 4362.902
+        Interval 721: 4362.903 - 4367.902
+        Interval 722: 4367.903 - 4372.902
+        Interval 723: 4372.903 - 4377.999
+    Static bad channels:  ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+    Static flat channels: []
+[done]
+noisy = ['MEG2311', 'MEG2533', 'MEG2623', 'MEG2633']
+flat =  []
+102 of 102 magnetometer types replaced with T3.
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   13.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   13.9s finished
+Setting 741654 of 4378000 (16.94%) samples to NaN, retaining 3636346 (83.06%) samples.
+Effective window size : 5.000 (s)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    6.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    6.9s finished
+Traceback (most recent call last):
+  File "/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py", line 141, in <module>
+    Cat_all(int(sys.argv[1]))
+  File "/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py", line 115, in Cat_all
+    results = Parallel(n_jobs=-1)(delayed(pre_pros_method)(participant,xx) for xx in [1,2,3])
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1088, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+  File "/rds/homes/y/yxb968/.local/lib/python3.9/site-packages/joblib/parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_PrePros.py", line 84, in pre_pros_method
+    head_locs = np.load(path_file)  
+  File "/rds/bear-apps/2021b/EL8-ice/software/SciPy-bundle/2021.10-foss-2021b/lib/python3.9/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/230309/proccessed/head_movement/head_movementhead_locs_.npy'
