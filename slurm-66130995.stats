@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Apr 14 15:43:33 2023 for yxb968(639678)
+| Identity jobid 66130995 jobname Part_supertrials.sh
+| Running against project kowalcau-opm-recordings and in partition cascadelake-shared
+| Requested cpu=1,mem=72G,node=1,billing=1 - 03:00:00 walltime
+| Assigned to nodes bear-pg0211u04b
+| Command /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_supertrials.sh
+| WorkDir /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Apr 14 15:44:27 2023 for yxb968(639678) on the BlueBEAR Cluster
+| Required (00:38.304 cputime, 34674K memory used) - 00:00:55 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+
