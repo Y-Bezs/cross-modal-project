@@ -1,70 +1,34 @@
 
 def Cat_all(sub):
 
-    aa = 4
-    result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/Category/'
+    suffics = { 1:'no_max',
+                2:'max_wo_head',
+                3:'max_w_head'}
+
+    sensor = ('meg','grad','mag')
+    delta_T=50
     participant_arr=list(Part_info.keys())
     participant=participant_arr[sub-1]
-    
-    #participant_arr=['1107','1110','1114','1121','1124','1125','1128','1129','1130']
-    #for participant in ['1107','1110','1114','1117','1121','1125','1128','1129','1130']:
-    data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
-    result_path=data_path+'proccessed/w_head_movement'
-
-    path_to_save = result_path + '/category_class_w_time/' 
-    if not os.path.exists(path_to_save):
-        os.makedirs(path_to_save)
-
-    def read_epochs(aa, result_path, data_name):
-        file_extensions = {
-            1: '_epo.fif',
-            2: '_epo-right.fif',
-            3: '_supertrials.fif',
-            4: '_supertrials-right.fif'
-        }
-        extension = file_extensions.get(aa, '_supertrials-right.fif')
-        path_file = os.path.join(result_path, data_name + '_supertrials-right.fif') 
-        epochs = mne.read_epochs(path_file, preload=True, verbose=True)
-        return epochs  
-
-    epochs = read_epochs(aa, result_path, data_name)       
-    epochs.event_id=events_id
 
     Category = {
-            "11":"move",
-            "12":"still",
-            "21":"big",
-            "22":"small",
-            "31":"nat",
-            "32":"man"
-    }
-    method={
-            1:"_all_trials",
-            2:"_sptrl",
-            3:"_all_tr_right",
-            4:"_head_time"
-    }
+        "11":"move",
+        "12":"still",
+        "21":"big",
+        "22":"small",
+        "31":"nat",
+        "32":"man"}
 
-    delta_T=50
-    T_full = epochs.resample(600).crop(tmin=-0.1, tmax=0.8).times
-    num_lags = round(delta_T/(T_full[2]-T_full[1])/1000)
-    scores_all = np.zeros((len(['w', 'p']) * len([11, 21, 31]), len(T_full)-num_lags))
-    times_all = np.zeros(len(T_full)-num_lags)
-    
-    def run_category(mod, cat, Category, method, delta_T):
-            num_lags = round(delta_T/(T_full[2]-T_full[1])/1000)
+    def run_category(mod, cat, Category, participant, delta_T, sens, xx, method):
 
-            cat_1=mod+'/'+Category[str(cat)]
-            cat_2=mod+'/'+Category[str(cat+1)]
+            cat_1=mod + '/' + Category[str(cat)]
+            cat_2=mod + '/' + Category[str(cat+1)]
 
             epochs_1 = epochs[cat_1].copy()  #choose epochs to classify
             epochs_2 = epochs[cat_2].copy()
-            epochs_rs_raw=mne.concatenate_epochs([epochs_1 ,epochs_2])
-            epochs_rs=epochs_rs_raw.copy().filter(1,30)
-            epochs_rs.resample(600)
-            epochs_rs.crop(tmin=-0.1, tmax=0.8)
+            epochs_rs=mne.concatenate_epochs([epochs_1 ,epochs_2])
+            #epochs_rs=epochs_rs_raw.copy().filter(1,30)
             epochs_rs = epochs_rs.copy().apply_baseline(baseline=(-0.1, 0))
-            X = epochs_rs.get_data(picks='meg') 
+            X = epochs_rs.get_data(picks=sens) 
             X.shape
 
             # Get the dimensions of the original matrix
@@ -78,7 +42,7 @@ def Cat_all(sub):
 
             tr_1=np.unique(epochs_1.events[:,2])  #prepare the labels
             tr_2=np.unique(epochs_2.events[:,2])
-            merged_events = mne.merge_events(epochs_rs_raw.events, tr_1, 1)
+            merged_events = mne.merge_events(epochs_rs.events, tr_1, 1)
             merged_events = mne.merge_events(merged_events, tr_2, 2)
             epochs_rs.events=merged_events
             y = merged_events[:,2]  #labels
@@ -100,19 +64,46 @@ def Cat_all(sub):
             plt.ylabel('AUC')  # Area Under the Curve
             plt.legend()
             plt.axvline(.0, color='k', linestyle='-')
-            plt.title(cat_1+' vc '+cat_2+method[aa])
+            plt.title(cat_1+' vc '+cat_2+method)
             plt.show()
             
-            filename_fig = op.join(path_to_save, mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+method[aa]+str(delta_T)+'.png')
+            filename_fig = op.join(path_to_save, mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+method+str(delta_T)+'.png')
             fig.savefig(filename_fig, dpi=600)
             
 
-    
-    results = Parallel(n_jobs=-1)(delayed(run_category)(mod, cat, Category, method,delta_T) for mod in ['w', 'p'] for cat in [11, 21, 31])
-    np.save(result_all_path + 'scores_all_move_big_nat_W_P_' + str(Part_info[participant]) + method[aa]+str(delta_T), scores_all)
-    np.save(result_all_path + 'times_all_' + method[aa]+str(delta_T), times_all)
-    np.save(path_to_save + 'scores_all_move_big_nat_W_P_' + str(Part_info[participant]) + method[aa]+str(delta_T), scores_all)
-    np.save(path_to_save + 'times_all_' + method[aa] + str(delta_T), times_all)
+    for xx in [1]:
+        for sens in ['meg','mag','grad']:
+            method = '_' + suffics[xx] + '_' + sens
+
+            result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/Category_w_time/'+ suffics[xx]+'/'
+            data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
+            result_path=data_path+'proccessed/' + suffics[xx]
+            path_to_save=result_path + '/category_w_time/'
+
+            data_name='full'
+            if not os.path.exists(result_all_path):
+                os.makedirs(result_all_path)
+            if not os.path.exists(result_path):
+                os.makedirs(result_path)
+            if not os.path.exists(path_to_save):
+                os.makedirs(path_to_save)
+
+            path_file = os.path.join(result_path, data_name + '_' + suffics[xx] + '_supertrials-right.fif') 
+            epochs_raw = mne.read_epochs(path_file, preload=True, verbose=True)     
+            epochs_raw.event_id=events_id
+            epochs=epochs_raw.copy().filter(1,30).crop(tmin=-0.1, tmax=0.7)
+
+            T_full = epochs.resample(500).times
+            num_lags = round(delta_T/(T_full[2]-T_full[1])/1000)
+            scores_all = np.zeros((len(['w', 'p']) * len([11, 21, 31]), len(T_full)-num_lags))
+            times_all = np.zeros(len(T_full)-num_lags)
+
+            results = Parallel(n_jobs=-1)(delayed(run_category)(mod, cat, Category, participant, delta_T, sens, xx, method) for mod in ['w', 'p'] for cat in [11, 21, 31])
+        
+            np.save(result_all_path + 'scores_move_big_nat_W_P_' + str(Part_info[participant]) + method+'_'+str(delta_T), scores_all)
+            np.save(result_all_path + 'times' + method +'_'+ str(delta_T), times_all)
+            np.save(path_to_save + 'scores_move_big_nat_W_P_' + str(Part_info[participant]) + method+'_'+str(delta_T), scores_all)
+            np.save(path_to_save + 'times' + method +'_'+ str(delta_T), times_all)
 #np.save(result_path+'scores_'+mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+method[aa], scores)
 #np.save(result_all_path+'scores_'+mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+str(Part_info[participant])+method[aa], scores)
 #np.save(result_all_path+'time_'+mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+str(Part_info[participant])+method[aa], epochs_rs.times)

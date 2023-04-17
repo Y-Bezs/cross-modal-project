@@ -38,4 +38,7 @@ pip install scikit-learn
 pip install mne
 pip install rsatoolbox
 pip install opencv-python
+pip install glmtools
+pip install tabulate
+
 # pip install spyder  # Got some errors when including this.

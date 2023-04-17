@@ -26,7 +26,7 @@ method={
     4:"_fltr_1_30_"}
 
 
-for participant in participant_arr[0:14]:
+for participant in participant_arr:
     data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
     result_path=data_path+'/proccessed/w_head_movement'
 

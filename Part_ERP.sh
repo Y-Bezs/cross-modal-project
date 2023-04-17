@@ -5,7 +5,7 @@
 #SBATCH --time 30:0
 #SBATCH --mem-per-cpu=72G
 #SBATCH --mail-type=END
-#SBATCH --array 1-33
+#SBATCH --array 4-34
 
 set -e
 

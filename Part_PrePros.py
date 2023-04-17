@@ -43,7 +43,7 @@ def Cat_all(sub):
 
         #%%
         #file_sss_path =r'Z:/cross_modal_project/'
-        file_sss_path ='/rds/projects/j/jenseno-opm/cross_modal_project/'
+        file_sss_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/'
         crosstalk_file = os.path.join(file_sss_path,'ct_sparse_SA.fif')
         cal_file = os.path.join(file_sss_path,'sss_cal_SA.dat')
 
@@ -86,6 +86,7 @@ def Cat_all(sub):
             head_locs = None 
 
         if xx == 1:
+            #data_raw.info['bads']=[]
             data_fltrd=data_raw.copy().filter(0,100)
         else:
             data_raw_sss = mne.preprocessing.maxwell_filter(
@@ -95,6 +96,7 @@ def Cat_all(sub):
                 head_pos = head_locs, #no head position for 230217/135
                 skip_by_annotation = ('edge', 'bad_acq_skip','BAD'),
                 verbose=True)
+            data_raw_sss.info['bads']=[]
             fig2=data_raw_sss.plot_psd(
                                         fmax=60, 
                                         n_fft = 5000,
@@ -109,10 +111,10 @@ def Cat_all(sub):
             data_fltrd, ch_type="mag", threshold=threshold_muscle, min_length_good=0.2,
             filter_freq=[110, 140])
         data_fltrd.set_annotations(annotations_muscle+data_raw.annotations)
-        path_file_results = os.path.join(result_path,data_name +'_'+suffics[xx]+'_ann-1.fif') 
+        path_file_results = os.path.join(result_path,data_name +'_'+suffics[xx]+'_ann-1-wo-bad-chn.fif') 
         data_fltrd.save(path_file_results,overwrite=True) 
     
-    results = Parallel(n_jobs=-1)(delayed(pre_pros_method)(participant,xx) for xx in [1,2,3])
+    results = Parallel(n_jobs=-1)(delayed(pre_pros_method)(participant,xx) for xx in [1])
     
 
 if __name__ == "__main__":

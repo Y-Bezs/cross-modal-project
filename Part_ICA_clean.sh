@@ -5,6 +5,7 @@
 #SBATCH --time 30:0
 #SBATCH --mem-per-cpu=72G
 #SBATCH --mail-type=END
+#SBATCH --array 1-35
 
 set -e
 
@@ -16,4 +17,4 @@ module load MNE-Python/1.1.1-foss-2021b
 
 
 
-python Part_ICA_clean.py
+python Part_ICA_clean.py ${SLURM_ARRAY_TASK_ID}

@@ -11,8 +11,8 @@ from mne.preprocessing import ICA
 import scipy.io
 import seaborn as sns
 
-data_path =r'Z:/cross_modal_project/Across_participants/'
-file_name_1='CrossClasssc_CrossClass_p_w.npy'
+data_path =r'Y:/cross_modal_project/Across_participants/Cross_Class/max_wo_head'
+file_name_1='scores_move_big_nat_W_P_105_max_wo_head_meg_50'
 file_name_2='CrossClasssc_CrossClass_w_p.npy'
 
 path_file = os.path.join(data_path, file_name_1)

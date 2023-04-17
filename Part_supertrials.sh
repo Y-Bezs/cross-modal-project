@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --ntasks 1
-#SBATCH --account=jenseno-opm
+#SBATCH --account=kowalcau-opm-recordings
 #SBATCH --qos bbdefault
-#SBATCH --time 60:0
+#SBATCH --time 3:00:00
 #SBATCH --mem-per-cpu=72G
 #SBATCH --mail-type=END
 

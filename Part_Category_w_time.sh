@@ -2,7 +2,7 @@
 #SBATCH --ntasks 1
 #SBATCH --account=jenseno-opm
 #SBATCH --qos bbdefault
-#SBATCH --time 6:00:00
+#SBATCH --time 8:00:00
 #SBATCH --mem-per-cpu=128G
 #SBATCH --mail-type=END
 #SBATCH --array 1-33
