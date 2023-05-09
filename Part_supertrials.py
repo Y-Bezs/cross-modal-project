@@ -83,14 +83,15 @@ for par in range(np.size(participant_arr)):
                         picks = 'meg',
                         detrend = 1,
                         #reject=reject,
-                        reject_by_annotation=True,
+                        reject_by_annotation=False,
                         preload=True,
                         verbose=True)#
-
+            info_save = epochs['start_000/p'].info
+            epochs.info['bads'] = []
             my_list=[]
             my_list = list(events_id.items())
             dim = epochs.get_data('meg').shape
-            tmp=np.zeros([16,dim[1],1401])
+            tmp=np.zeros([16,306,1401])
             #events_avg=np.zeros([1,3])
             for jj in range(0,16):
                 tmp[jj,:]=np.mean(epochs[my_list[jj][0]].get_data(picks='meg'),axis=0)
@@ -108,8 +109,7 @@ for par in range(np.size(participant_arr)):
 
         events_avg=np.delete(events_avg,0,0)
         events_avg=np.array(events_avg)
-        Epochs_avg=mne.EpochsArray(data=raw_avg,info=epochs['start_000/p'].info,events=events_avg.astype(int),event_id=events_id,tmin=t_start)
-        #
+        Epochs_avg=mne.EpochsArray(data=raw_avg,info=info_save,events=events_avg.astype(int),event_id=events_id,tmin=t_start)
         path_outfile = os.path.join(result_path,data_name+'_'+suffics[xx]+'_supertrials-right'+ aaa +'.fif') 
         Epochs_avg.save(path_outfile,overwrite=True)
 

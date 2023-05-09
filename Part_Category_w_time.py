@@ -65,20 +65,20 @@ def Cat_all(sub):
             plt.legend()
             plt.axvline(.0, color='k', linestyle='-')
             plt.title(cat_1+' vc '+cat_2+method)
-            plt.show()
+            #plt.show()
             
-            filename_fig = op.join(path_to_save, mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+method+str(delta_T)+'.png')
-            fig.savefig(filename_fig, dpi=600)
+            #filename_fig = op.join(path_to_save, mod+'_'+Category[str(cat)]+'VC'+Category[str(cat+1)]+method+str(delta_T)+'.png')
+            #fig.savefig(filename_fig, dpi=600)
             
-
+    aaa = 'no_ica'
     for xx in [1]:
         for sens in ['meg','mag','grad']:
-            method = '_' + suffics[xx] + '_' + sens
+            method = '_' + suffics[xx] + '_' + sens + '_'+ aaa
 
-            result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/Category_w_time/'+ suffics[xx]+'/'
+            result_all_path='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/Across_participants/Category_w_time/'+ suffics[xx]+'/' + aaa + '/'
             data_path ='/rds/projects/k/kowalcau-opm-recordings/cross_modal_project/'+participant+'/'
             result_path=data_path+'proccessed/' + suffics[xx]
-            path_to_save=result_path + '/category_w_time/'
+            path_to_save=result_path + '/category_w_time/' + aaa + '/'
 
             data_name='full'
             if not os.path.exists(result_all_path):
@@ -88,7 +88,7 @@ def Cat_all(sub):
             if not os.path.exists(path_to_save):
                 os.makedirs(path_to_save)
 
-            path_file = os.path.join(result_path, data_name + '_' + suffics[xx] + '_supertrials-right.fif') 
+            path_file = os.path.join(result_path, data_name + '_' + suffics[xx] + '_supertrials-right'+aaa+'.fif') 
             epochs_raw = mne.read_epochs(path_file, preload=True, verbose=True)     
             epochs_raw.event_id=events_id
             epochs=epochs_raw.copy().filter(1,30).crop(tmin=-0.1, tmax=0.7)

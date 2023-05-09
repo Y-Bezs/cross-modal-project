@@ -1,0 +1,17 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Tue Apr 18 17:13:46 2023 for yxb968(639678)
+| Identity jobid 66231087 jobname Part_Category_w_time_2.sh
+| Array Identity 66231087_11
+| Running against project jenseno-opm and in partition cascadelake-hdr-shared
+| Requested cpu=1,mem=128G,node=1,billing=1 - 08:00:00 walltime
+| Assigned to nodes bear-pg0206u14b
+| Command /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis/Part_Category_w_time_2.sh
+| WorkDir /rds/projects/k/kowalcau-opm-recordings/cross_modal_project/analysis
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Tue Apr 18 19:22:38 2023 for yxb968(639678) on the BlueBEAR Cluster
+| Required (02:07:59 cputime, 4237868K memory used) - 02:08:53 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

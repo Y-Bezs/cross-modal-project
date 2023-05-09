@@ -5,8 +5,7 @@
 #SBATCH --time 8:00:00
 #SBATCH --mem-per-cpu=128G
 #SBATCH --mail-type=END
-#SBATCH --array 1-33
-
+#SBATCH --array 12-24,28,29,30
 set -e
 
 module purge; module load bluebear
